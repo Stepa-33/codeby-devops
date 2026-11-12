@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 content from branch_c
-=======
 content from branch_b
->>>>>>> branch_b
+branch_b
+content from branch_a
+branch_a
