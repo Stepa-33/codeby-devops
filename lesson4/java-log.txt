@@ -1,0 +1,64 @@
+Script started on 2026-11-13 11:15:08+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config java[27msudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   [0K
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+* 0            /opt/temurin-21/bin/java                      2100      auto mode
+  1            /opt/temurin-21/bin/java                      2100      manual mode
+  2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config javac[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config javac
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                          Priority   Status
+------------------------------------------------------------
+* 0            /opt/temurin-21/bin/javac                      2100      auto mode
+  1            /opt/temurin-21/bin/javac                      2100      manual mode
+  2            /usr/lib/jvm/java-17-openjdk-amd64/bin/javac   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mjava -version[27m
+[7mjavac -version[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ java -version
+javac -version
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk version "17.0.21.0.3" 2026-10-24
+OpenJDK Runtime Environment (build 17.0.21.0.3+1-1-26.10.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 17.0.21.0.3+1-1-26.10.1-Ubuntu, mixed mode, sharing)
+]133;C\]666;vte.shell.preexec!\javac 17.0.21.0.3
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config java[27msudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /opt/temurin-21/bin/java                      2100      auto mode
+  1            /opt/temurin-21/bin/java                      2100      manual mode
+* 2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /opt/temurin-21/bin/java to provide /usr/bin/java (java) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config javac[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config javac
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                          Priority   Status
+------------------------------------------------------------
+  0            /opt/temurin-21/bin/javac                      2100      auto mode
+  1            /opt/temurin-21/bin/javac                      2100      manual mode
+* 2            /usr/lib/jvm/java-17-openjdk-amd64/bin/javac   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /opt/temurin-21/bin/javac to provide /usr/bin/javac (javac) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mjava -version[27m
+[7mjavac -version[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ java -version
+javac -version
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)
+]133;C\]666;vte.shell.preexec!\javac 21.0.13
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-11-13 11:17:27+03:00 [COMMAND_EXIT_CODE="0"]

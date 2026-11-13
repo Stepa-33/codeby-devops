@@ -1,0 +1,1623 @@
+Script started on 2026-11-13 11:00:38+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "START PROCESS LOG"[27mecho "START PROCESS LOG"
+[?2004l]133;C\]666;vte.shell.preexec!\START PROCESS LOG
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps aux[27mps aux
+[?2004l]133;C\]666;vte.shell.preexec!\USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5  28608 18656 ?        Ss   06:19   0:06 /usr/lib/syst
+root           2  0.0  0.0      0     0 ?        S    06:19   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    06:19   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kv
+root           7  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sl
+root           8  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ne
+root          10  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/0:0H
+root          12  0.0  0.0      0     0 ?        I    06:19   0:00 [kworker/u512
+root          13  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mm
+root          14  0.0  0.0      0     0 ?        S    06:19   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    06:19   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_par_
+root          17  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_gp_k
+root          18  0.0  0.0      0     0 ?        S    06:19   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    06:19   0:00 [kprobe-optim
+root          20  0.0  0.0      0     0 ?        S    06:19   0:00 [idle_inject/
+root          21  0.0  0.0      0     0 ?        S    06:19   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    06:19   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    06:19   0:00 [idle_inject/
+root          24  0.0  0.0      0     0 ?        S    06:19   0:00 [migration/1]
+root          25  0.0  0.0      0     0 ?        S    06:19   0:00 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/1:0H
+root          30  0.0  0.0      0     0 ?        S    06:19   0:00 [kdevtmpfs]
+root          31  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-in
+root          32  0.0  0.0      0     0 ?        I    06:19   0:00 [rcu_tasks_kt
+root          33  0.0  0.0      0     0 ?        I    06:19   0:00 [rcu_tasks_ru
+root          34  0.0  0.0      0     0 ?        S    06:19   0:00 [kauditd]
+root          35  0.0  0.0      0     0 ?        S    06:19   0:00 [khungtaskd]
+root          36  0.0  0.0      0     0 ?        S    06:19   0:00 [oom_reaper]
+root          39  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-wr
+root          40  0.0  0.0      0     0 ?        S    06:19   0:01 [kcompactd0]
+root          41  0.0  0.0      0     0 ?        SN   06:19   0:00 [ksmd]
+root          42  0.0  0.0      0     0 ?        SN   06:19   0:00 [khugepaged]
+root          43  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-bi
+root          44  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kb
+root          45  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-bl
+root          46  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ki
+root          47  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/9-acpi]
+root          49  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-tp
+root          50  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-at
+root          51  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          52  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          53  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          54  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ed
+root          55  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-de
+root          56  0.0  0.0      0     0 ?        S    06:19   0:00 [watchdogd]
+root          57  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-qu
+root          58  0.0  0.0      0     0 ?        S    06:19   0:00 [kswapd0]
+root          60  0.0  0.0      0     0 ?        S    06:19   0:00 [ecryptfs-kth
+root          61  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kt
+root          62  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/24-pcieh
+root          63  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/25-pcieh
+root          64  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/26-pcieh
+root          65  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/27-pcieh
+root          66  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/28-pcieh
+root          67  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/29-pcieh
+root          68  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/30-pcieh
+root          69  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/31-pcieh
+root          70  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/32-pcieh
+root          71  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/33-pcieh
+root          72  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/34-pcieh
+root          73  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/35-pcieh
+root          74  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/36-pcieh
+root          75  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/37-pcieh
+root          76  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/38-pcieh
+root          77  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/39-pcieh
+root          78  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/40-pcieh
+root          79  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/41-pcieh
+root          80  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/42-pcieh
+root          81  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/43-pcieh
+root          82  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/44-pcieh
+root          83  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/45-pcieh
+Script started on 2026-11-13 10:57:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mscript -a -f lesson4/ps-log.txt[27mscript -a -f lesson4/ps-log.txt
+[?2004l]133;C\]666;vte.shell.preexec!\Script started, output log file is 'lesson4/ps-log.txt'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "START PROCESS LOG"[27mecho "START PROCESS LOG"
+[?2004l]133;C\]666;vte.shell.preexec!\START PROCESS LOG
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps aux[27mps aux
+[?2004l]133;C\]666;vte.shell.preexec!\USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5  28608 18656 ?        Ss   06:19   0:06 /usr/lib/syst
+root           2  0.0  0.0      0     0 ?        S    06:19   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    06:19   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kv
+root           7  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sl
+root           8  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ne
+root          10  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/0:0H
+root          12  0.0  0.0      0     0 ?        I    06:19   0:00 [kworker/u512
+root          13  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mm
+root          14  0.0  0.0      0     0 ?        S    06:19   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    06:19   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_par_
+root          17  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_gp_k
+root          18  0.0  0.0      0     0 ?        S    06:19   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    06:19   0:00 [kprobe-optim
+root          20  0.0  0.0      0     0 ?        S    06:19   0:00 [idle_inject/
+root          21  0.0  0.0      0     0 ?        S    06:19   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    06:19   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    06:19   0:00 [idle_inject/
+root          24  0.0  0.0      0     0 ?        S    06:19   0:00 [migration/1]
+root          25  0.0  0.0      0     0 ?        S    06:19   0:00 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/1:0H
+root          30  0.0  0.0      0     0 ?        S    06:19   0:00 [kdevtmpfs]
+root          31  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-in
+root          32  0.0  0.0      0     0 ?        I    06:19   0:00 [rcu_tasks_kt
+root          33  0.0  0.0      0     0 ?        I    06:19   0:00 [rcu_tasks_ru
+root          34  0.0  0.0      0     0 ?        S    06:19   0:00 [kauditd]
+root          35  0.0  0.0      0     0 ?        S    06:19   0:00 [khungtaskd]
+root          36  0.0  0.0      0     0 ?        S    06:19   0:00 [oom_reaper]
+root          39  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-wr
+root          40  0.0  0.0      0     0 ?        S    06:19   0:01 [kcompactd0]
+root          41  0.0  root          84  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/46-pcieh
+root          85  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/47-pcieh
+root          86  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/48-pcieh
+root          87  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/49-pcieh
+root          88  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/50-pcieh
+root          89  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/51-pcieh
+root          90  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/52-pcieh
+root          91  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/53-pcieh
+root          92  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/54-pcieh
+root          93  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/55-pcieh
+root          94  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ac
+root          95  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_0]
+root          96  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root          97  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_1]
+root          98  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         103  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ml
+root         104  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ip
+root         105  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ks
+root         106  0.0  0.0      0     0 ?        I    06:19   0:00 [kworker/u512
+root         109  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ch
+root         110  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/u515
+root         289  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mp
+root         290  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mp
+root         291  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_2]
+root         292  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         296  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_3]
+root         297  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         298  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_4]
+root         299  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         300  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_5]
+root         301  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         302  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_6]
+root         303  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         304  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_7]
+root         305  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         306  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_8]
+root         307  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         308  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_9]
+root         309  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         310  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_10]
+root         311  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         312  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_11]
+root         313  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         314  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_12]
+root         315  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         316  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_13]
+root         317  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         319  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_14]
+root         320  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         321  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_15]
+root         322  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         323  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_16]
+root         324  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         325  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_17]
+root         326  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         327  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_18]
+root         328  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         329  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_19]
+root         330  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         331  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_20]
+root         332  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         333  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_21]
+root         334  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         335  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_22]
+root         336  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         337  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_23]
+root         338  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         339  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_24]
+root         340  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         341  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_25]
+root         342  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         345  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_26]
+root         346  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         347  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_27]
+root         348  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         349  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_28]
+root         350  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         351  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_29]
+root         352  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         353  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_30]
+root         354  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         355  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_31]
+root         356  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         357  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_32]
+root         358  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         415  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/1:1H
+root         431  0.0  0.0      0     0 ?        S    06:19   0:00 [jbd2/sda2-8]
+root         432  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ex
+root         448  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/57-vmw_v
+root         449  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/58-vmw_v
+root         450  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/59-vmw_v
+root         490  0.0  0.5  45088 18692 ?        S<s  06:19   0:01 /usr/lib/syst
+root         518  0.0  0.0      0     0 ?        S    06:19   0:01 [irq/16-vmwgf
+root         523  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-tt
+root         531  0.0  0.0 158944  1636 ?        Ssl  06:19   0:00 vmware-vmbloc
+systemd+     541  0.0  0.1  10336  6444 ?        Ss   06:19   0:02 /usr/lib/syst
+root         545  0.0  0.5  48232 19784 ?        Ss   06:19   0:00 /usr/lib/syst
+systemd+     546  0.0  0.4  23224 16120 ?        Ss   06:19   0:00 /usr/lib/syst
+root         551  0.0  0.0      0     0 ?        S    06:19   0:00 [psimon]
+root        1146  0.0  0.3  32096 11544 ?        Ss   06:19   0:00 /usr/bin/VGAu
+root        1155  0.3  0.3 264800 11130.0      0     0 ?        SN   06:19   0:00 [ksmd]
+root          42  0.0  0.0      0     0 ?        SN   06:19   0:00 [khugepaged]
+root          43  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-bi
+root          44  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kb
+root          45  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-bl
+root          46  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ki
+root          47  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/9-acpi]
+root          49  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-tp
+root          50  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-at
+root          51  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          52  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          53  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-md
+root          54  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ed
+root          55  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-de
+root          56  0.0  0.0      0     0 ?        S    06:19   0:00 [watchdogd]
+root          57  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-qu
+root          58  0.0  0.0      0     0 ?        S    06:19   0:00 [kswapd0]
+root          60  0.0  0.0      0     0 ?        S    06:19   0:00 [ecryptfs-kth
+root          61  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kt
+root          62  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/24-pcieh
+root          63  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/25-pcieh
+root          64  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/26-pcieh
+root          65  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/27-pcieh
+root          66  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/28-pcieh
+root          67  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/29-pcieh
+root          68  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/30-pcieh
+root          69  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/31-pcieh
+root          70  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/32-pcieh
+root          71  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/33-pcieh
+root          72  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/34-pcieh
+root          73  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/35-pcieh
+root          74  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/36-pcieh
+root          75  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/37-pcieh
+root          76  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/38-pcieh
+root          77  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/39-pcieh
+root          78  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/40-pcieh
+root          79  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/41-pcieh
+root          80  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/42-pcieh
+root          81  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/43-pcieh
+root          82  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/44-pcieh
+root          83  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/45-pcieh
+root          84  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/46-pcieh
+root          85  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/47-pcieh
+root          86  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/48-pcieh
+root          87  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/49-pcieh
+root          88  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/50-pcieh
+root          89  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/51-pcieh
+root          90  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/52-pcieh
+root          91  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/53-pcieh
+root          92  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/54-pcieh
+root          93  0.0  0.0      0 6 ?        Ssl  06:19   0:56 /usr/bin/vmto
+message+    1264  0.0  0.2  12268  7044 ?        Ss   06:19   0:00 /usr/bin/dbus
+message+    1265  0.0  0.2   9440  7204 ?        S    06:19   0:01 dbus-broker -
+root        1266  0.0  0.6 347956 22012 ?        Ssl  06:19   0:01 /usr/sbin/Net
+avahi       1269  0.0  0.1   7012  4948 ?        Ss   06:19   0:00 avahi-daemon:
+_chrony     1270  0.0  0.2  20584  7908 ?        Ss   06:19   0:00 /usr/sbin/chr
+root        1284  0.0  0.8  58308 30180 ?        Ss   06:19   0:00 /usr/bin/pyth
+polkitd     1314  0.0  0.3 398560 12980 ?        Ssl  06:19   0:01 /usr/lib/polk
+root        1327  0.0  1.4 1824528 48208 ?       Ssl  06:19   0:01 /usr/lib/snap
+root        1335  0.0  0.2 320660  8444 ?        Ssl  06:19   0:00 /usr/libexec/
+root        1340  0.0  0.0  18460  3292 ?        Ss   06:19   0:00 /usr/sbin/cro
+root        1343  0.0  0.2 320740  8352 ?        Ssl  06:19   0:00 /usr/libexec/
+root        1361  0.0  0.2  12164  8400 ?        Ss   06:19   0:00 /usr/lib/syst
+root        1362  0.0  0.4 544060 16752 ?        Ssl  06:19   0:00 /usr/libexec/
+root        1363  0.0  0.2  18232  7584 ?        Ss   06:19   0:00 /usr/sbin/wpa
+syslog      1392  0.0  0.2 222124  7440 ?        Ssl  06:19   0:00 /usr/sbin/rsy
+avahi       1431  0.0  0.0   6832  1648 ?        S    06:19   0:00 avahi-daemon:
+_chrony     1509  0.0  0.1  12280  3476 ?        S    06:19   0:00 /usr/sbin/chr
+root        1605  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-cf
+root        1619  0.0  0.4 391916 14496 ?        Ssl  06:19   0:00 /usr/sbin/Mod
+root        1668  0.0  0.9 137912 32880 ?        Ssl  06:19   0:00 /usr/bin/pyth
+root        1698  0.0  0.2 395544 10032 ?        Ssl  06:19   0:00 /usr/sbin/gdm
+root        1716  0.0  0.3 397524 11728 ?        Sl   06:19   0:00 gdm-session-w
+stepa       1762  0.0  0.4  20020 14792 ?        Ss   06:19   0:02 /usr/lib/syst
+stepa       1780  0.0  0.1  17740  4064 ?        S    06:19   0:00 (sd-pam)
+root        1867  0.0  0.2 320796  8232 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       1884  0.0  0.1   9436  4692 ?        Ss   06:19   0:00 /usr/bin/dbus
+stepa       1891  0.0  0.1  10128  5920 ?        S    06:19   0:01 dbus-broker -
+stepa       1903  0.0  0.1   7788  4200 ?        Ss   06:19   0:00 /usr/bin/mpri
+stepa       1904  0.0  0.3 120296 13108 ?        Ssl  06:19   0:09 /usr/bin/pipe
+stepa       1909  0.0  0.6 589744 23040 ?        Ssl  06:19   0:00 /usr/bin/wire
+stepa       1910  0.0  0.1  96320  5804 ?        Ssl  06:19   0:00 /usr/bin/pipe
+stepa       1911  0.0  0.3 189588 12916 ?        Ssl  06:19   0:00 /usr/bin/pipe
+stepa       1915  0.0  0.3 194812 11536 ?        SLsl 06:19   0:00 /usr/bin/gnom
+rtkit       1927  0.0  0.1  87564  3576 ?        SNsl 06:19   0:00 /usr/libexec/
+stepa       1955  0.0  0.2 180868  7172 tty2     Ssl+ 06:19   0:00 /usr/libexec/
+stepa       1981  0.0  0.2 175604  9512 tty2     Sl+  06:19   0:00 /usr/libexec/
+stepa       2018  0.0  0.2 567588  8184 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2039  0.0  0.2 320036  7444 ?        Ssl  06:19   0:00 /usr/libexec/
+root        2056  0.0  0.0   2900  2260 ?        Ss   06:19   0:00 fusermount3 -
+stepa       2066  0.0  0.2 237116  8588 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2067  0.0  0.1  98776  6084 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2068  0.0  0.1  10536  6788 ?        Ss   06:19   0:00 /usr/bin/ssh-
+stepa       2086  0.0  0.2 473200  9624 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2094  0.0  0.2 337324  8392 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2097  0.0  0.3 559432 11536 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2110  0.7  7.4 3357312 254440 ?      Ssl  06:19   2:02 /usr/bin/gnom
+stepa       2231  0.0  0.2 381376  8364 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2241  0.0  0.1   9304  4504 ?        S    06:19   0:00 /usr/bin/dbus
+stepa       2242  0.0  0.0   5664  3332 ?        S    06:19   0:00 dbus-broker -
+stepa       2244  0.0  0.2 168972  800    0 ?        S    06:19   0:00 [irq/55-pcieh
+root          94  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ac
+root          95  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_0]
+root          96  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root          97  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_1]
+root          98  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         103  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ml
+root         104  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ip
+root         105  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ks
+root         106  0.0  0.0      0     0 ?        I    06:19   0:00 [kworker/u512
+root         109  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ch
+root         110  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/u515
+root         289  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mp
+root         290  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mp
+root         291  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_2]
+root         292  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         296  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_3]
+root         297  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         298  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_4]
+root         299  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         300  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_5]
+root         301  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         302  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_6]
+root         303  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         304  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_7]
+root         305  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         306  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_8]
+root         307  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         308  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_9]
+root         309  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         310  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_10]
+root         311  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         312  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_11]
+root         313  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         314  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_12]
+root         315  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         316  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_13]
+root         317  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         319  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_14]
+root         320  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         321  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_15]
+root         322  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         323  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_16]
+root         324  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         325  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_17]
+root         326  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         327  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_18]
+root         328  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         329  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_19]
+root         330  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         331  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_20]
+root         332  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         333  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_21]
+root         334  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         335  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_22]
+root         336  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         337  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_23]
+root         338  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         339  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_24]
+root         340  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         341  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_25]
+root         342  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         345  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_26]
+root         346  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         347  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_27]
+root         348  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         349  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_28]
+root         350  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         351  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_29]
+root         352  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         353  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_30]
+root         354  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         355  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_31]
+root         356  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         357  0.0  0.0      0     0 ?        S    06:19   0:00 [scsi_eh_32]
+root         358  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sc
+root         415  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/1:1H
+root         431  0.0  0.0      0     0 ?        S    06:19   0:00 [jbd2/sda2-8]
+root         432  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ex
+root         448  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/57-vmw_v
+root         449  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/58-vmw_v
+root         450  0.0  0.0      0     0 ?        S    06:19   0:00 [irq/59-vmw_v
+root         490  0.0  0.5  45088 18692 ?        S<s  06:19   0:01 /usr/lib/syst
+root         518  0.0  0.0      0     0 ?        S    06:19   0:01 [irq/16-vmwgf
+root         523  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-tt
+root         531  0.0  0.0 158944  1636 ?        Ssl  06:19   0:00 vmware-vmbloc
+systemd+     541  0.0  0.1  10336  6444 ?        Ss   06:19   0:02 /usr/lib/syst
+root         545  0.0  0.5  48232 19784 ?        Ss   06:19   0:00 /usr/lib/syst
+systemd+     546  0.0  0.4  23224 16120 ?        Ss   06:19   0:00 /usr/lib/syst
+root         551  0.0  0.0      0     0 ?        S    06:19   0:00 [psimon]
+root        1146  0.0  0.3  32096 11544 ?        Ss   06:19   0:00 /usr/bin/VGAu
+root        1155  0.3  0.3 264800 11136 ?        Ssl  06:19   0:56 /usr/bin/vmto
+message+    1264  0.0  0.2  12268  7044 ?        Ss   06:19   0:00 /usr/bin/dbus
+message+    1265  0.0  0.2   9440  7204 ?        S    06:19   0:01 dbus-broker -
+root        1266  0.0  0.6 347956 22012 ?        Ssl  06:19   0:01 /usr/sbin/Net
+avahi       1269  0.0  0.1   7012  4948 ?        Ss   06:19   0:00 avahi-daemon:
+_chrony     1270  0.0  0.2  20584  7908 ?        Ss   06:19   0:00 /usr/sbin/chr
+root        1284  0.0  0.8  58308 30180 ?        Ss   06:19   0:00 /usr/bin/pyth
+polkitd     1314  0.0  0.3 398560 12980 ?        Ssl  06:19   0:01 /usr/lib/polk
+root        1327  0.0  1.4 1824528 48208 ?       Ssl  06:19   0:01 /usr/lib/snap
+root        1335  0.0  0.2 320660  8444 ?        Ssl  06:19   0:00 /usr/li4 ?        Ssl  06:19   0:00 /usr/libexec/
+colord      2245  0.0  0.4 328500 16504 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2286  0.0  0.7 612384 24452 ?        Ssl  06:19   0:00 /usr/libexec/
+root        2292  0.0  0.3 330196 11712 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2296  0.0  0.9 2683660 32276 ?       Ssl  06:19   0:00 /usr/bin/gjs 
+stepa       2302  0.0  0.3 471956 12420 ?        Ssl  06:19   0:03 /usr/bin/ibus
+stepa       2303  0.0  0.3 265448 10828 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2308  0.0  0.3 264812 11096 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2309  0.0  0.3 271888 12908 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2311  0.0  0.3 403508 11284 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2313  0.0  0.2 395780  8748 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2314  0.0  0.4 637148 14992 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2315  0.0  0.3 552576 11928 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2316  0.0  0.4 339284 14508 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2327  0.0  0.2 469640  8856 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2332  0.0  0.2 182524  8072 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2335  0.0  0.3 479016 13452 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2352  0.0  0.3 398360 10468 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2353  0.0  0.2 313656 10020 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2355  0.0  0.3 266492 11044 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2356  0.0  2.0 787636 68836 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2357  0.0  0.3 484812 10436 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2360  0.0  0.3 401960 11244 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2367  0.3  3.2 902140 111844 ?       Sl   06:19   0:59 /usr/bin/vmto
+stepa       2372  0.0  1.3 776364 47500 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2373  0.0  1.0 589632 35696 ?        Sl   06:19   0:01 /usr/bin/upda
+stepa       2476  0.0  0.2 255684  8748 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2479  0.0  0.3 419368 12732 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2487  0.0  0.9 2683628 31628 ?       Ssl  06:19   0:00 /usr/bin/gjs 
+stepa       2491  0.0  1.0 511564 37476 ?        Sl   06:19   0:02 /usr/libexec/
+stepa       2508  0.0  0.2 321172  8800 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2509  0.0  0.8 621752 27696 ?        SNsl 06:19   0:00 /usr/libexec/
+stepa       2514  0.0  0.6 583312 21024 ?        Ssl  06:19   0:01 /usr/libexec/
+stepa       2610  0.0  0.8 468988 28968 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2612  0.0  1.2 632528 42700 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2628  0.0  0.8 660576 27892 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2637  0.0  0.3 400624 11056 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2654  0.0  0.3 546064 12408 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2664  0.0  0.9 642300 32492 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2674  0.0  0.2 320508  7980 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2688  0.0  0.2 320580  8000 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2699  0.0  0.2 321544  8608 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2704  0.0  0.2 402576  9984 ?        Ssl  06:19   0:01 /usr/libexec/
+stepa       2712  0.0  2.7 259588 94288 ?        S    06:19   0:00 /usr/bin/Xway
+stepa       2722  0.0  0.2 181984  8888 ?        Sl   06:19   0:01 /usr/libexec/
+stepa       2787  0.0  0.2 181656  8124 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2829  0.0  0.2 166732  7072 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2885  0.0  0.3 262688 13676 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2920  0.0  2.9 761312 102656 ?       Sl   06:19   0:00 /usr/libexec/
+stepa       2962  0.0  0.4 184152 15136 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2994  0.0  0.8 503852 29264 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       3081  0.0  0.1 303936  6388 ?        Ssl  06:19   0:00 /snap/snapd-d
+stepa       3133  0.0  0.8 440096 29348 ?        Sl   06:19   0:00 /snap/snapd-d
+stepa       3456  0.0  0.2 399856 10256 ?        Sl   06:22   0:00 /usr/libexec/
+stepa       3463  0.0  0.2 399376 10040 ?        Sl   06:22   0:00 /usr/libexec/
+stepa       3468  0.0  0.9  55228 33588 ?        S    06:22   0:00 python3 /usr/
+uuidd       3470  0.0  0.1  19608  3668 ?        Ss   06:22   0:00 /usr/sbin/uui
+root        3587  0.0  0.2 320472  8092 ?        Ssl  06:24   0:00 /usr/libexec/
+root       14908  0.0  0.0      0     0 ?        I<   06:37   0:00 [kworker/0:2H
+root       21840  0.0  0.8 360232 29580 ?        Ssl  08:03   0:01 /usr/libexec/
+root       21851  0.0  0.0      0     0 ?        S    08:03   0:00 [psimon]
+root       22127  0.0  0.3  41160 13472 ?        Ss   08:04   0:00 /usr/sbin/cup
+cups-br+   22128  0.0  0.6 208244 23104 ?        Ssl  08:04   0:00 /usr/sbin/cup
+root       22984  0.0  0.0      0     0 ?        I    10:09   0:02 [kworker/0:2-
+root       23224  0.0  0.0      0     0 ?        I    10:13   0:00 [kworker/u514
+root       23232  0.0  0.0      0     0 ?        I    10:17   0:00 [kworker/u513
+stepa      23328  0.0  0.3 547196 10560 ?        Sl   10:25   0:00 /usr/libexec/
+stepa      23350  0.0  5.4 3144484 187684 ?      Sl   10:25   0:01 gjs /usr/shar
+root       23764  0.0  0.0      0     0 ?        I    10:33   0:00 [kworker/u513
+root       23847  0.0  0.0      0     0 ?        I    10:37   0:00 [kworker/u514
+root       23878  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u516
+root       23884  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u517
+root       23885  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u517
+root       24527  0.0  0.0      0     0 ?        S    10:38   0:00 [psimon]
+root       24783  0.0  0.2  10836  7876 ?        Ss   10:40   0:00 sshd: /usr/sb
+stepa      24788  0.0  0.2  10668  7260 ?        S    10:40   0:00 /usr/bin/ssh-
+root       24789  0.0  0.0      0     0 ?        I    10:40   0:00 [kworker/u513
+root       24885  0.0  0.0      0     0 ?        I    10:40   0:00 [kworker/1:2-
+stepa      24908  0.0  0.0   3880  2400 ?        S    10:43   0:00 bwrap --unsha
+stepa      24909  0.0  0.0   3880  1496 ?        S    10:43   0:00 bwrap --unsha
+stepa      24910  0.0  0.2 213996  7136 ?        Sl   10:43   0:00 /usr/libexec/
+root       24915  0.0  0.0      0     0 ?        I<   10:43   0:00 [kworker/u516
+root       24946  0.0  0.0      0     0 ?        I<   10:46   0:00 [kworker/u517
+root       24951  0.0  0.0      0     0 ?        I<   10:46   0:00 [kworker/u516
+root       24994  0.0  0.0      0     0 ?        I    10:49   0:00 [kworker/u514
+root       24996  0.0  0.0      0     0 ?        I<   10:49   0:00 [kworker/u516
+root       24997  0.0  0.0      0     0 ?        I<   10:49   0:00 [kworker/u516
+stepa      25054  0.0  0.2 325976 10248 ?        Sl   10:50   0:00 /usr/libexec/
+root       25088  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/0:0-
+root       25102  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25103  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25104  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25105  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25106  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25107  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25108  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25109  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25110  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25111  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25276  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25296  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25361  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25362  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25363  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25364  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25365  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25366  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25367  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25392  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/u517
+root       25421  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u517
+root       25422  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u517
+root       25423  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u517
+stepa      25427  1.3  7.5 1147492 259848 ?      Ssl  10:53   0:06 /usr/bin/naut
+stepa      25563  1.6  7.0 1115848 241664 ?      Ssl  10:54   0:06 /usr/bin/ptyx
+stepa      25570  0.0  0.2 241352  8380 ?        Ssl  10:54   0:00 /usr/libexec/
+stepa      25591  0.0  0.1  20220  5984 pts/0    Ss   10:54   0:00 /usr/bin/bash
+stepa      25607  0.0  0.0  17196  2616 pts/0    S+   10:54   0:00 script -a les
+stepa      25608  0.0  0.1  20220  5852 pts/1    Ss   10:54   0:00 bash -i
+root       25709  0.0  0.0      0     0 ?        I    10:55   0:00 [kworker/1:0-
+stepa      25720  0.0  0.0  17196  2616 pts/1    S+   10:57   0:00 script -a les
+stepa      25721  0.0  0.1  20220  5908 pts/2    Ss   10:57   0:00 bash -i
+root       25766  0.0  0.0      0     0 ?        I    10:57   0:00 [kworker/u514
+root       25800  0.0  0.0      0     0 ?        I<   10:58   0:00 [kworker/u517
+root       25813  0.0  0.0      0     0 ?        I    11:00   0:00 [kworker/0:1-
+stepa      25815  0.0  0.0  17196  2612 pts/2    S+   11:00   0:00 script -a -f 
+stepa      25816  0.0  0.1  20220  5856 pts/3    Ss   11:00   0:00 bash -i
+root       25863  0.0  0.0      0     0 ?        I<   11:00   0:00 [kworker/u516
+root       25864  0.0  0.0      0     0 ?        I<   11:00   0:00 [kworker/u516
+stepa      25871  0.0  0.1  21564  4940 pts/3    R+   11:01   0:00 ps aux
+]666;vte.shell.postexec=0\bexec/
+root        1340  0.0  0.0  18460  3292 ?        Ss   06:19   0:00 /usr/sbin/cro
+root        1343  0.0  0.2 320740  8352 ?        Ssl  06:19   0:00 /usr/libexec/
+root        1361  0.0  0.2  12164  8400 ?        Ss   06:19   0:00 /usr/lib/syst
+root        1362  0.0  0.4 544060 16752 ?        Ssl  06:19   0:00 /usr/libexec/
+root        1363  0.0  0.2  18232  7584 ?        Ss   06:19   0:00 /usr/sbin/wpa
+syslog      1392  0.0  0.2 222124  7440 ?        Ssl  06:19   0:00 /usr/sbin/rsy
+avahi       1431  0.0  0.0   6832  1648 ?        S    06:19   0:00 avahi-daemon:
+_chrony     1509  0.0  0.1  12280  3476 ?        S    06:19   0:00 /usr/sbin/chr
+root        1605  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-cf
+root        1619  0.0  0.4 391916 14496 ?        Ssl  06:19   0:00 /usr/sbin/Mod
+root        1668  0.0  0.9 137912 32880 ?        Ssl  06:19   0:00 /usr/bin/pyth
+root        1698  0.0  0.2 395544 10032 ?        Ssl  06:19   0:00 /usr/sbin/gdm
+root        1716  0.0  0.3 397524 11728 ?        Sl   06:19   0:00 gdm-session-w
+stepa       1762  0.0  0.4  20020 14792 ?        Ss   06:19   0:02 /usr/lib/syst
+stepa       1780  0.0  0.1  17740  4064 ?        S    06:19   0:00 (sd-pam)
+root        1867  0.0  0.2 320796  8232 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       1884  0.0  0.1   9436  4692 ?        Ss   06:19   0:00 /usr/bin/dbus
+stepa       1891  0.0  0.1  10128  5920 ?        S    06:19   0:01 dbus-broker -
+stepa       1903  0.0  0.1   7788  4200 ?        Ss   06:19   0:00 /usr/bin/mpri
+stepa       1904  0.0  0.3 120296 13108 ?        Ssl  06:19   0:09 /usr/bin/pipe
+stepa       1909  0.0  0.6 589744 23040 ?        Ssl  06:19   0:00 /usr/bin/wire
+stepa       1910  0.0  0.1  96320  5804 ?        Ssl  06:19   0:00 /usr/bin/pipe
+stepa       1911  0.0  0.3 189588 12916 ?        Ssl  06:19   0:00 /usr/bin/pipe
+stepa       1915  0.0  0.3 194812 11536 ?        SLsl 06:19   0:00 /usr/bin/gnom
+rtkit       1927  0.0  0.1  87564  3576 ?        SNsl 06:19   0:00 /usr/libexec/
+stepa       1955  0.0  0.2 180868  7172 tty2     Ssl+ 06:19   0:00 /usr/libexec/
+stepa       1981  0.0  0.2 175604  9512 tty2     Sl+  06:19   0:00 /usr/libexec/
+stepa       2018  0.0  0.2 567588  8184 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2039  0.0  0.2 320036  7444 ?        Ssl  06:19   0:00 /usr/libexec/
+root        2056  0.0  0.0   2900  2260 ?        Ss   06:19   0:00 fusermount3 -
+stepa       2066  0.0  0.2 237116  8588 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2067  0.0  0.1  98776  6084 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2068  0.0  0.1  10536  6788 ?        Ss   06:19   0:00 /usr/bin/ssh-
+stepa       2086  0.0  0.2 473200  9624 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2094  0.0  0.2 337324  8392 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2097  0.0  0.3 559432 11536 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2110  0.7  7.4 3357312 254440 ?      Ssl  06:19   2:02 /usr/bin/gnom
+stepa       2231  0.0  0.2 381376  8364 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2241  0.0  0.1   9304  4504 ?        S    06:19   0:00 /usr/bin/dbus
+stepa       2242  0.0  0.0   5664  3332 ?        S    06:19   0:00 dbus-broker -
+stepa       2244  0.0  0.2 168972  8004 ?        Ssl  06:19   0:00 /usr/libexec/
+colord      2245  0.0  0.4 328500 16504 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2286  0.0  0.7 612384 24452 ?        Ssl  06:19   0:00 /usr/libexec/
+root        2292  0.0  0.3 330196 11712 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2296  0.0  0.9 2683660 32276 ?       Ssl  06:19   0:00 /usr/bin/gjs 
+stepa       2302  0.0  0.3 471956 12420 ?        Ssl  06:19   0:03 /usr/bin/ibus
+stepa       2303  0.0  0.3 265448 10828 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2308  0.0  0.3 264812 11096 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2309  0.0  0.3 271888 12908 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2311  0.0  0.3 403508 11284 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2313  0.0  0.2 395780  8748 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2314  0.0  0.4 637148 14992 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2315  0.0  0.3 552576 11928 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2316  0.0  0.4 339284 14508 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2327  0.0  0.2 469640  8856 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2332  0.0  0.2 182524  8072 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2335  0.0  0.3 479016 13452 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2352  0.0  0.3 398360 10468 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2353  0.0  0.2 313656 10020 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2355  0.0  0.3 266492 11044 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2356  0.0  2.0 787636 68836 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2357  0.0  0.3 484812 10436 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2360  0.0  0.3 401960 11244 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2367  0.3  3.2 902140 111844 ?       Sl   06:19   0:59 /usr/bin/vmto
+stepa       2372  0.0  1.3 776364 47500 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2373  0.0  1.0 589632 35696 ?        Sl   06:19   0:01 /usr/bin/upda
+stepa       2476  0.0  0.2 255684  8748 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2479  0.0  0.3 419368 12732 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2487  0.0  0.9 2683628 31628 ?       Ssl  06:19   0:00 /usr/bin/gjs 
+stepa       2491  0.0  1.0 511564 37476 ?        Sl   06:19   0:02 /usr/libexec/
+stepa       2508  0.0  0.2 321172  8800 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2509  0.0  0.8 621752 27696 ?        SNsl 06:19   0:00 /usr/libexec/
+stepa       2514  0.0  0.6 583312 21024 ?        Ssl  06:19   0:01 /usr/libexec/
+stepa       2610  0.0  0.8 468988 28968 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2612  0.0  1.2 632528 42700 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2628  0.0  0.8 660576 27892 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2637  0.0  0.3 400624 11056 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2654  0.0  0.3 546064 12408 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2664  0.0  0.9 642300 32492 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2674  0.0  0.2 320508  7980 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2688  0.0  0.2 320580  8000 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2699  0.0  0.2 321544  8608 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2704  0.0  0.2 402576  9984 ?        Ssl  06:19   0:01 /usr/libexec/
+stepa       2712  0.0  2.7 259588 94288 ?        S    06:19   0:00 /usr/bin/Xway
+stepa       2722  0.0  0.2 181984  8888 ?        Sl   06:19   0:01 /usr/libexec/
+stepa       2787  0.0  0.2 181656  8124 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2829  0.0  0.2 166732  7072 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2885  0.0  0.3 262688 13676 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       2920  0.0  2.9 761312 102656 ?       Sl   06:19   0:00 /usr/libexec/
+stepa       2962  0.0  0.4 184152 15136 ?        Sl   06:19   0:00 /usr/libexec/
+stepa       2994  0.0  0.8 503852 29264 ?        Ssl  06:19   0:00 /usr/libexec/
+stepa       3081  0.0  0.1 303936  6388 ?        Ssl  06:19   0:00 /snap/snapd-d
+stepa       3133  0.0  0.8 440096 29348 ?        Sl   06:19   0:00 /snap/snapd-d
+stepa       3456  0.0  0.2 399856 10256 ?        Sl   06:22   0:00 /usr/libexec/
+stepa       3463  0.0  0.2 399376 10040 ?        Sl   06:22   0:00 /usr/libexec/
+stepa       3468  0.0  0.9  55228 33588 ?        S    06:22   0:00 python3 /usr/
+uuidd       3470  0.0  0.1  19608  3668 ?        Ss   06:22   0:00 /usr/sbin/uui
+root        3587  0.0  0.2 320472  8092 ?        Ssl  06:24   0:00 /usr/libexec/
+root       14908  0.0  0.0      0     0 ?        I<   06:37   0:00 [kworker/0:2H
+root       21840  0.0  0.8 360232 29580 ?        Ssl  08:03   0:01 /usr/libexec/
+root       21851  0.0  0.0      0     0 ?        S    08:03   0:00 [psimon]
+root       22127  0.0  0.3  41160 13472 ?        Ss   08:04   0:00 /usr/sbin/cup
+cups-br+   22128  0.0  0.6 208244 23104 ?        Ssl  08:04   0:00 /usr/sbin/cup
+root       22984  0.0  0.0      0     0 ?        I    10:09   0:02 [kworker/0:2-
+root       23224  0.0  0.0      0     0 ?        I    10:13   0:00 [kworker/u514
+root       23232  0.0  0.0      0     0 ?        I    10:17   0:00 [kworker/u513
+stepa      23328  0.0  0.3 547196 10560 ?        Sl   10:25   0:00 /usr/libexec/
+stepa      23350  0.0  5.4 3144484 187684 ?      Sl   10:25   0:01 gjs /usr/shar
+root       23764  0.0  0.0      0     0 ?        I    10:33   0:00 [kworker/u513
+root       23847  0.0  0.0      0     0 ?        I    10:37   0:00 [kworker/u514
+root       23878  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u516
+root       23884  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u517
+root       23885  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u517
+root       24527  0.0  0.0      0     0 ?        S    10:38   0:00 [psimon]
+root       24783  0.0  0.2  10836  7876 ?        Ss   10:40   0:00 sshd: /usr/sb
+stepa      24788  0.0  0.2  10668  7260 ?        S    10:40   0:00 /usr/bin/ssh-
+root       24789  0.0  0.0      0     0 ?        I    10:40   0:00 [kworker/u513
+root       24885  0.0  0.0      0     0 ?        I    10:40   0:00 [kworker/1:2-
+stepa      24908  0.0  0.0   3880  2400 ?        S    10:43   0:00 bwrap --unsha
+stepa      24909  0.0  0.0   3880  1496 ?        S    10:43   0:00 bwrap --unsha
+stepa      24910  0.0  0.2 213996  7136 ?        Sl   10:43   0:00 /usr/libexec/
+root       24915  0.0  0.0      0     0 ?        I<   10:43   0:00 [kworker/u516
+root       24946  0.0  0.0      0     0 ?        I<   10:46   0:00 [kworker/u517
+root       24951  0.0  0.0      0     0 ?        I<   10:46   0:00 [kworker/u516
+root       24994  0.0  0.0      0     0 ?        I    10:49   0:00 [kworker/u514
+root       24996  0.0  0.0      0     0 ?        I<   10:49   0:00 [kworker/u516
+root       24997  0.0  0.0      0     0 ?        I<   10:49   0:00 [kworker/u516
+stepa      25054  0.0  0.2 325976 10248 ?        Sl   10:50   0:00 /usr/libexec/
+root       25088  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/0:0-
+root       25102  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25103  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25104  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25105  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25106  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25107  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25108  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25109  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25110  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25111  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25276  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25296  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25361  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25362  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25363  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25364  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25365  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u517
+root       25366  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25367  0.0  0.0      0     0 ?        I<   10:51   0:00 [kworker/u516
+root       25392  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/u517
+root       25421  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps -u "$(id -un)" -f[27mps -u "$(id -un)" -f
+[?2004l]133;C\]666;vte.shell.preexec!\UID          PID    PPID  C STIME TTY          TIME CMD
+stepa       1762       1  0 06:19 ?        00:00:02 /usr/lib/systemd/systemd --u
+stepa       1780    1762  0 06:19 ?        00:00:00 (sd-pam)
+stepa       1884    1762  0 06:19 ?        00:00:00 /usr/bin/dbus-broker-launch 
+stepa       1891    1884  0 06:19 ?        00:00:01 dbus-broker --log 10 --contr
+stepa       1903    1762  0 06:19 ?        00:00:00 /usr/bin/mpris-proxy
+stepa       1904    1762  0 06:19 ?        00:00:09 /usr/bin/pipewire
+stepa       1909    1762  0 06:19 ?        00:00:00 /usr/bin/wireplumber
+stepa       1910    1762  0 06:19 ?        00:00:00 /usr/bin/pipewire -c filter-
+stepa       1911    1762  0 06:19 ?        00:00:00 /usr/bin/pipewire-pulse
+stepa       1915    1762  0 06:19 ?        00:00:00 /usr/bin/gnome-keyring-daemo
+stepa       1955    1716  0 06:19 tty2     00:00:00 /usr/libexec/gdm-wayland-ses
+stepa       1981    1955  0 06:19 tty2     00:00:00 /usr/libexec/gnome-session-i
+stepa       2018    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-document-po
+stepa       2039    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-permission-
+stepa       2066    1762  0 06:19 ?        00:00:00 /usr/libexec/gcr-ssh-agent -
+stepa       2067    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-session-c
+stepa       2068    1762  0 06:19 ?        00:00:00 /usr/bin/ssh-agent -D
+stepa       2086    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd
+stepa       2094    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd-fuse /run
+stepa       2097    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-session-s
+517
+root       25422  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u517
+root       25423  0.0  0.0      0     0 ?        I<   10:53   0:00 [kworker/u517
+stepa      25427  1.3  7.5 1147492 259848 ?      Ssl  10:53   0:06 /usr/bin/naut
+stepa      25563  1.6  7.0 1115848 241664 ?      Ssl  10:54   0:06 /usr/bin/ptyx
+stepa      25570  0.0  0.2 241352  8380 ?        Ssl  10:54   0:00 /usr/libexec/
+stepa      25591  0.0  0.1  20220  5984 pts/0    Ss   10:54   0:00 /usr/bin/bash
+stepa      25607  0.0  0.0  17196  2616 pts/0    S+   10:54   0:00 script -a les
+stepa      25608  0.0  0.1  20220  5852 pts/1    Ss   10:54   0:00 bash -i
+root       25709  0.0  0.0      0     0 ?        I    10:55   0:00 [kworker/1:0-
+stepa      25720  0.0  0.0  17196  2616 pts/1    S+   10:57   0:00 script -a les
+stepa      25721  0.0  0.1  20220  5908 pts/2    Ss   10:57   0:00 bash -i
+root       25766  0.0  0.0      0     0 ?        I    10:57   0:00 [kworker/u514
+root       25800  0.0  0.0      0     0 ?        I<   10:58   0:00 [kworker/u517
+root       25813  0.0  0.0      0     0 ?        I    11:00   0:00 [kworker/0:1-
+stepa      25815  0.0  0.0  17196  2612 pts/2    S+   11:00   0:00 script -a -f 
+stepa      25816  0.0  0.1  20220  5856 pts/3    Ss   11:00   0:00 bash -i
+root       25863  0.0  0.0      0     0 ?        I<   11:00   0:00 [kworker/u516
+root       25864  0.0  0.0      0     0 ?        I<   11:00   0:00 [kworker/u516
+stepa      25871  0.0  0.1  21564  4940 pts/3    R+   11:01   0:00 ps aux
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps -u "$(id -un)" -f[27mps -u "$(id -un)" -f
+[?2004l]133;C\]666;vte.shell.preexec!\UID          PID    PPID  C STIME TTY          TIME CMD
+stepa       1762       1  0 06:19 ?        00:00:02 /usr/lib/systemd/systemd --u
+stepa       1780    1762  0 06:19 ?        00:00:00 (sd-pam)
+stepa       1884    1762  0 06:19 ?        00:00:00 /usr/bin/dbus-broker-launch 
+stepa       1891    1884  0 06:19 ?        00:00:01 dbus-broker --log 10 --contr
+stepa       1903    1762  0 06:19 ?        00:00:00 /usr/bin/mpris-proxy
+stepa       1904    1762  0 06:19 ?        00:00:09 /usr/bin/pipewire
+stepa       1909    1762  0 06:19 ?        00:00:00 /usr/bin/wireplumber
+stepa       1910    1762  0 06:19 ?        00:00:00 /usr/bin/pipewire -c filter-
+stepa       1911    1762  0 06:19 ?        00:00:00 /usr/bin/pipewire-pulse
+stepa       1915    1762  0 06:19 ?        00:00:00 /usr/bin/gnome-keyring-daemo
+stepa       1955    1716  0 06:19 tty2     00:00:00 /usr/libexec/gdm-wayland-ses
+stepa       1981    1955  0 06:19 tty2     00:00:00 /usr/libexec/gnome-session-i
+stepa       2018    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-document-po
+stepa       2039    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-permission-
+stepa       2066    1762  0 06:19 ?        00:00:00 /usr/libexec/gcr-ssh-agent -
+stepa       2067    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-session-c
+stepa       2068    1762  0 06:19 ?        00:00:00 /usr/bin/ssh-agent -D
+stepa       2086    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd
+stepa       2094    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd-fuse /run
+stepa       2097    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-session-s
+stepa       2110    1762  0 06:19 ?        00:02:03 /usr/bin/gnome-shell --mode=
+stepa       2231    1762  0 06:19 ?        00:00:00 /usr/libexec/at-spi-bus-laun
+stepa       2241    2231  0 06:19 ?        00:00:00 /usr/bin/dbus-broker-launch 
+stepa       2242    2241  0 06:19 ?        00:00:00 dbus-broker --log 10 --contr
+stepa       2244    1762  0 06:19 ?        00:00:00 /usr/libexec/at-spi2-registr
+stepa       2286    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-shell-cal
+stepa       2296    1762  0 06:19 ?        00:00:00 /usr/bin/gjsstepa       2110    1762  0 06:19 ?        00:02:03 /usr/bin/gnome-shell --mode=
+stepa       2231    1762  0 06:19 ?        00:00:00 /usr/libexec/at-spi-bus-laun
+stepa       2241    2231  0 06:19 ?        00:00:00 /usr/bin/dbus-broker-launch 
+stepa       2242    2241  0 06:19 ?        00:00:00 dbus-broker --log 10 --contr
+stepa       2244    1762  0 06:19 ?        00:00:00 /usr/libexec/at-spi2-registr
+stepa       2286    1762  0 06:19 ?        00:00:00 /usr/libexec/gnome-shell-cal
+stepa       2296    1762  0 06:19 ?        00:00:00 /usr/bin/gjs -m /usr/share/g
+stepa       2302    1762  0 06:19 ?        00:00:03 /usr/bin/ibus-daemon --panel
+stepa       2303    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-a11y-settin
+stepa       2308    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-color
+stepa       2309    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-datetime
+stepa       2311    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-housekeepin
+stepa       2313    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-keyboard
+stepa       2314    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-media-keys
+stepa       2315    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-power
+stepa       2316    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-print-notif
+stepa       2327    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-rfkill
+stepa       2332    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-screensaver
+stepa       2335    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-sharing
+stepa       2352    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-smartcard
+stepa       2353    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-disk-utilit
+stepa       2355    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-sound
+stepa       2356    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-data-
+stepa       2357    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-usb-protect
+stepa       2360    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-wwan
+stepa       2367    1762  0 06:19 ?        00:00:59 /usr/bin/vmtoolsd -n vmusr -
+stepa       2372    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-sourc
+stepa       2373    1762  0 06:19 ?        00:00:01 /usr/bin/update-notifier
+stepa       2476    2302  0 06:19 ?        00:00:00 /usr/libexec/ibus-dconf
+stepa       2479    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-printer
+stepa       2487    1762  0 06:19 ?        00:00:00 /usr/bin/gjs -m /usr/share/g
+stepa       2491    2302  0 06:19 ?        00:00:02 /usr/libexec/ibus-extension-
+stepa       2508    1762  0 06:19 ?        00:00:00 /usr/libexec/ibus-portal
+stepa       2509    1762  0 06:19 ?        00:00:00 /usr/libexec/localsearch-3
+stepa       2514    1762  0 06:19 ?        00:00:01 /usr/libexec/xdg-desktop-por
+stepa       2610    1762  0 06:19 ?        00:00:00 /usr/libexec/goa-daemon
+stepa       2612    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-desktop-por
+stepa       2628    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-calen
+stepa       2637    1762  0 06:19 ?        00:00:00 /usr/libexec/goa-identity-se
+stepa       2654    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-udisks2-vo
+stepa       2664    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-addre
+stepa       2674    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-goa-volume
+stepa       2688    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-mtp-volume
+stepa       2699    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-gphoto2-vo
+stepa       2704    1762  0 06:19 ?        00:00:01 /usr/libexec/gvfs-afc-volume
+stepa       2712    2110  0 06:19 ?        00:00:00 /usr/bin/Xwayland :0 -rootle
+stepa       2722    2302  0 06:19 ?        00:00:01 /usr/libexec/ibus-engine-sim
+stepa       2787    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd-metadata
+stepa       2829    1762  0 06:19 ?        00:00:00 /usr/libexec/dconf-service
+stepa       2885    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-xsettings
+stepa       2920    2110  0 06:19 ?        00:00:00 /usr/libexec/mutter-x11-fram
+stepa       2962    1762  0 06:19 ?        00:00:00 /usr/libexec/ibus-x11
+stepa       2994    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-desktop-por
+stepa       3081    1762  0 06:19 ?        00:00:00 /snap/snapd-desktop-integrat
+stepa       3133    3081  0 06:19 ?        00:00:00 /snap/snapd-desktop-integrat
+stepa       3456    2086  0 06:22 ?        00:00:00 /usr/libexec/gvfsd-dnssd --s
+stepa       3463    2086  0 06:22 ?        00:00:00 /usr/libexec/gvfsd-wsdd --sp
+stepa       3468    3463  0 06:22 ?        00:00:00 python3 /usr/bin/wsdd --no-h
+stepa      23328    2086  0 10:25 ?        00:00:00 /usr/libexec/gvfsd-trash --s
+stepa      23350    2110  0 10:25 ?        00:00:01 gjs /usr/share/gnome-shell/e
+stepa      24788    2066  0 10:40 ?        00:00:00 /usr/bin/ssh-agent -D -a /ru
+ -m /usr/share/g
+stepa       2302    1762  0 06:19 ?        00:00:03 /usr/bin/ibus-daemon --panel
+stepa       2303    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-a11y-settin
+stepa       2308    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-color
+stepa       2309    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-datetime
+stepa       2311    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-housekeepin
+stepa       2313    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-keyboard
+stepa       2314    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-media-keys
+stepa       2315    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-power
+stepa       2316    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-print-notif
+stepa       2327    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-rfkill
+stepa       2332    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-screensaver
+stepa       2335    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-sharing
+stepa       2352    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-smartcard
+stepa       2353    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-disk-utilit
+stepa       2355    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-sound
+stepa       2356    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-data-
+stepa       2357    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-usb-protect
+stepa       2360    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-wwan
+stepa       2367    1762  0 06:19 ?        00:00:59 /usr/bin/vmtoolsd -n vmusr -
+stepa       2372    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-sourc
+stepa       2373    1762  0 06:19 ?        00:00:01 /usr/bin/update-notifier
+stepa       2476    2302  0 06:19 ?        00:00:00 /usr/libexec/ibus-dconf
+stepa       2479    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-printer
+stepa       2487    1762  0 06:19 ?        00:00:00 /usr/bin/gjs -m /usr/share/g
+stepa       2491    2302  0 06:19 ?        00:00:02 /usr/libexec/ibus-extension-
+stepa       2508    1762  0 06:19 ?        00:00:00 /usr/libexec/ibus-portal
+stepa       2509    1762  0 06:19 ?        00:00:00 /usr/libexec/localsearch-3
+stepa       2514    1762  0 06:19 ?        00:00:01 /usr/libexec/xdg-desktop-por
+stepa       2610    1762  0 06:19 ?        00:00:00 /usr/libexec/goa-daemon
+stepa       2612    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-desktop-por
+stepa       2628    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-calen
+stepa       2637    1762  0 06:19 ?        00:00:00 /usr/libexec/goa-identity-se
+stepa       2654    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-udisks2-vo
+stepa       2664    1762  0 06:19 ?        00:00:00 /usr/libexec/evolution-addre
+stepa       2674    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-goa-volume
+stepa       2688    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-mtp-volume
+stepa       2699    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfs-gphoto2-vo
+stepa       2704    1762  0 06:19 ?        00:00:01 /usr/libexec/gvfs-afc-volume
+stepa       2712    2110  0 06:19 ?        00:00:00 /usr/bin/Xwayland :0 -rootle
+stepa       2722    2302  0 06:19 ?        00:00:01 /usr/libexec/ibus-engine-sim
+stepa       2787    1762  0 06:19 ?        00:00:00 /usr/libexec/gvfsd-metadata
+stepa       2829    1762  0 06:19 ?        00:00:00 /usr/libexec/dconf-service
+stepa       2885    1762  0 06:19 ?        00:00:00 /usr/libexec/gsd-xsettings
+stepa       2920    2110  0 06:19 ?        00:00:00 /usr/libexec/mutter-x11-fram
+stepa       2962    1762  0 06:19 ?        00:00:00 /usr/libexec/ibus-x11
+stepa       2994    1762  0 06:19 ?        00:00:00 /usr/libexec/xdg-desktop-por
+stepa       3081    1762  0 06:19 ?        00:00:00 /snap/snapd-desktop-integrat
+stepa       3133    3081  0 06:19 ?        00:00:00 /snap/snapd-desktop-integrat
+stepa       3456    2086  0 06:22 ?        00:00:00 /usr/libexec/gvfsd-dnssd --s
+stepa       3463    2086  0 06:22 ?        00:00:00 /usr/libexec/gvfsd-wsdd --sp
+stepa       3468    3463  0 06:22 ?        00:00:00 pythostepa      24908    2367  0 10:43 ?        00:00:00 bwrap --unshare-all --die-wi
+stepa      24909   24908  0 10:43 ?        00:00:00 bwrap --unshare-all --die-wi
+stepa      24910   24909  0 10:43 ?        00:00:00 /usr/libexec/glycin-loaders/
+stepa      25054    2086  0 10:50 ?        00:00:00 /usr/libexec/gvfsd-recent --
+stepa      25427    1762  1 10:53 ?        00:00:06 /usr/bin/nautilus --gapplica
+stepa      25563    1762  1 10:54 ?        00:00:07 /usr/bin/ptyxis --gapplicati
+stepa      25570   25563  0 10:54 ?        00:00:00 /usr/libexec/ptyxis-agent --
+stepa      25591   25570  0 10:54 pts/0    00:00:00 /usr/bin/bash
+stepa      25607   25591  0 10:54 pts/0    00:00:00 script -a lesson4/ps-log.txt
+stepa      25608   25607  0 10:54 pts/1    00:00:00 bash -i
+stepa      25720   25608  0 10:57 pts/1    00:00:00 script -a lesson4/ps-log.txt
+stepa      25721   25720  0 10:57 pts/2    00:00:00 bash -i
+stepa      25815   25721  0 11:00 pts/2    00:00:00 script -a -f lesson4/ps-log.
+stepa      25816   25815  0 11:00 pts/3    00:00:00 bash -i
+stepa      25875   25816  0 11:01 pts/3    00:00:00 ps -u stepa -f
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mtop -b -d 5 > /tmp/top.out 2>&1 &[27mtop -b -d 5 > /tmp/top.out 2>&1 &
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 25879
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mTOP_PID=$![27mTOP_PID=$!
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "PID top: $TOP_PID"[27m
+[7mjobs -l[27m
+[7mps -p "$TOP_PID" -o pid,stat,cmd[27m[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ echo "PID top: $TOP_PID"
+jobs -l
+ps -p "$TOP_PID" -o pid,stat,cmd
+[?2004l]133;C\]666;vte.shell.preexec!\PID top: 25879
+]133;C\]666;vte.shell.preexec!\[1]+ 25879 Running                    top -b -d 5 > /tmp/top.out 2>&1 &
+]133;C\]666;vte.shell.preexec!\    PID STAT CMD
+  25879 S    top -b -d 5
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mkill "$TOP_PID"[27m
+[7mwait "$TOP_PID"[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ kill "$TOP_PID"
+wait "$TOP_PID"
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\[1]+  Done                       top -b -d 5 > /tmp/top.out 2>&1
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps -p "$TOP_PID" -o pid,stat,cmd[27m
+[7mjobs -l[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ps -p "$TOP_PID" -o pid,stat,cmd
+jobs -l
+[?2004l]133;C\]666;vte.shell.preexec!\    PID STAT CMD
+]133;C\]666;vte.shell.preexec!\n3 /usr/bin/wsdd --no-h
+stepa      23328    2086  0 10:25 ?        00:00:00 /usr/libexec/gvfsd-trash --s
+stepa      23350    2110  0 10:25 ?        00:00:01 gjs /usr/share/gnome-shell/e
+stepa      24788    2066  0 10:40 ?        00:00:00 /usr/bin/ssh-agent -D -a /ru
+stepa      24908    2367  0 10:43 ?        00:00:00 bwrap --unshare-all --die-wi
+stepa      24909   24908  0 10:43 ?        00:00:00 bwrap --unshare-all --die-wi
+stepa      24910   24909  0 10:43 ?        00:00:00 /usr/libexec/glycin-loaders/
+stepa      25054    2086  0 10:50 ?        00:00:00 /usr/libexec/gvfsd-recent --
+stepa      25427    1762  1 10:53 ?        00:00:06 /usr/bin/nautilus --gapplica
+stepa      25563    1762  1 10:54 ?        00:00:07 /usr/bin/ptyxis --gapplicati
+stepa      25570   25563  0 10:54 ?        00:00:00 /usr/libexec/ptyxis-agent --
+stepa      25591   25570  0 10:54 pts/0    00:00:00 /usr/bin/bash
+stepa      25607   25591  0 10:54 pts/0    00:00:00 script -a lesson4/ps-log.txt
+stepa      25608   25607  0 10:54 pts/1    00:00:00 bash -i
+stepa      25720   25608  0 10:57 pts/1    00:00:00 script -a lesson4/ps-log.txt
+stepa      25721   25720  0 10:57 pts/2    00:00:00 bash -i
+stepa      25815   25721  0 11:00 pts/2    00:00:00 script -a -f lesson4/ps-log.
+stepa      25816   25815  0 11:00 pts/3    00:00:00 bash -i
+stepa      25875   25816  0 11:01 pts/3    00:00:00 ps -u stepa -f
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mtop -b -d 5 > /tmp/top.out 2>&1 &[27mtop -b -d 5 > /tmp/top.out 2>&1 &
+[?2004l]133;C\]666;vte.shell.preexec!\[1] 25879
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mTOP_PID=$![27mTOP_PID=$!
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "PID top: $TOP_PID"[27m
+[7mjobs -l[27m
+[7mps -p "$TOP_PID" -o pid,stat,cmd[27m[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ echo "PID top: $TOP_PID"
+jobs -l
+ps -p "$TOP_PID" -o pid,stat,cmd
+[?2004l]133;C\]666;vte.shell.preexec!\PID top: 25879
+]133;C\]666;vte.shell.preexec!\[1]+ 25879 Running                    top -b -d 5 > /tmp/top.out 2>&1 &
+]133;C\]666;vte.shell.preexec!\    PID STAT CMD
+  25879 S    top -b -d 5
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mkill "$TOP_PID"[27m
+[7mwait "$TOP_PID"[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ kill "$TOP_PID"
+wait "$TOP_PID"
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\[1]+  Done                       top -b -d 5 > /tmp/top.out 2>&1
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps -p "$TOP_PID" -o pid,stat,cmd[27m
+[7mjobs -l[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ps -p "$TOP_PID" -o pid,stat,cmd
+jobs -l
+[?2004l]133;C\]666;vte.shell.preexec!\    PID STAT CMD]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-11-13 11:02:14+03:00 [COMMAND_EXIT_CODE="0"]
+
+]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+Script done.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mls -lh lesson4/ps-log.txt[27m
+[7mhead -20 lesson4/ps-log.txt[27m
+[7mtail -20 lesson4/ps-log.txt[27m[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ls -lh lesson4/ps-log.txt
+head -20 lesson4/ps-log.txt
+tail -20 lesson4/ps-log.txt
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 stepa stepa 80K Nov 13 11:02 lesson4/ps-log.txt
+]133;C\]666;vte.shell.preexec!\Script started on 2026-11-13 11:00:38+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "START PROCESS LOG"[27mecho "START PROCESS LOG"
+[?2004l]133;C\]666;vte.shell.preexec!\START PROCESS LOG
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps aux[27mps aux
+[?2004l]133;C\]666;vte.shell.preexec!\USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5  28608 18656 ?        Ss   06:19   0:06 /usr/lib/syst
+root           2  0.0  0.0      0     0 ?        S    06:19   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    06:19   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-kv
+root           7  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-sl
+root           8  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-ne
+root          10  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/0:0H
+root          12  0.0  0.0      0     0 ?        I    06:19   0:00 [kworker/u512
+root          13  0.0  0.0      0     0 ?        I<   06:19   0:00 [kworker/R-mm
+root          14  0.0  0.0      0     0 ?        S    06:19   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    06:19   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_par_
+root          17  0.0  0.0      0     0 ?        S    06:19   0:00 [rcu_exp_gp_k
+]133;C\]666;vte.shell.preexec!\[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mecho "PID top: $TOP_PID"[27m
+[7mjobs -l[27m
+[7mps -p "$TOP_PID" -o pid,stat,cmd[27m[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ echo "PID top: $TOP_PID"
+jobs -l
+ps -p "$TOP_PID" -o pid,stat,cmd
+[?2004l]133;C\]666;vte.shell.preexec!\PID top: 25879
+]133;C\]666;vte.shell.preexec!\[1]+ 25879 Running                    top -b -d 5 > /tmp/top.out 2>&1 &
+]133;C\]666;vte.shell.preexec!\    PID STAT CMD
+  25879 S    top -b -d 5
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mkill "$TOP_PID"[27m
+[7mwait "$TOP_PID"[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ kill "$TOP_PID"
+wait "$TOP_PID"
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\[1]+  Done                       top -b -d 5 > /tmp/top.out 2>&1
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mps -p "$TOP_PID" -o pid,stat,cmd[27m
+[7mjobs -l[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ps -p "$TOP_PID" -o pid,stat,cmd
+jobs -l
+[?2004l]133;C\]666;vte.shell.preexec!\    PID STAT CMD]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-11-13 11:02:14+03:00 [COMMAND_EXIT_CODE="0"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo apt update[27m
+[7msudo apt install -y openjdk-17-jdk curl ca-certificates[27m[Asudo apt update
+sudo apt install -y openjdk-17-jdk curl ca-certificates
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   [0K
+[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu stonking InRelease
+[33m0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:2 http://ru.archive.ubuntu.com/ubuntu stonking-updates InRelease
+[33m                                              0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:3 http://ru.archive.ubuntu.com/ubuntu stonking-backports InRelease
+[33m                                              0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Hit:4 http://security.ubuntu.com/ubuntu stonking-security InRelease
+[33m                        0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 66%Reading package lists... 66%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                ca-certificates is already the newest version (20260816ubuntu0.26.10.2).
+ca-certificates set to manually installed.
+Solving dependencies... 0%Solving dependencies... 10%                            Installing:
+[32m  curl  openjdk-17-jdk
+[0m
+Installing dependencies:
+[32m  ca-certificates-java     libx11-dev               openjdk-17-jre-headless
+  fonts-dejavu-extra       libxau-dev               uuid-dev
+  java-common              libxcb1-dev              x11proto-dev
+  libatk-wrapper-java      libxdmcp-dev             xorg-sgml-doctools
+  libatk-wrapper-java-jni  libxt-dev                xtrans-dev
+  libice-dev               openjdk-17-jdk-headless
+  libsm-dev                openjdk-17-jre
+[0m
+Suggested packages:
+  default-jre  libxcb-doc         visualvm              | fonts-wqy-zenhei
+  libice-doc   libxt-doc          fonts-ipafont-gothic  fonts-indic
+  libsm-doc    openjdk-17-demo    fonts-ipafont-mincho
+  libx11-doc   openjdk-17-source  fonts-wqy-microhei
+
+Summary:
+  Upgrading: 0, Installing: 21, Removing: 0, Not Upgrading: 13
+  Download size: 127 MB
+  Space needed: 292 MB / 8,899 MB available
+
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 ca-certificates-java all 20260311ubuntu0.26.10.2 [12.1 kB]
+[33m0% [1 ca-certificates-java 11.9 kB/12.1 kB 98%][0m[33m                                               1% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 curl amd64 8.20.0-2ubuntu11.1 [274 kB]
+[33m1% [2 curl 3,332 B/274 kB 1%][0m                             Get:3 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 fonts-dejavu-extra all 2.37-9 [1,944 kB]
+[33m2% [3 fonts-dejavu-extra 19.4 kB/1,944 kB 1%][0m[33m2% [3 fonts-dejavu-extra 226 kB/1,944 kB 12%][0m[33m2% [3 fonts-dejavu-extra 402 kB/1,944 kB 21%][0m[33m2% [3 fonts-dejavu-extra 651 kB/1,944 kB 33%][0m[33m3% [3 fonts-dejavu-extra 862 kB/1,944 kB 44%][0m[33m3% [3 fonts-dejavu-extra 1,122 kB/1,944 kB 58%][0m[33m3% [3 fonts-dejavu-extra 1,300 kB/1,944 kB 67%][0m[33m3% [3 fonts-dejavu-extra 1,566 kB/1,944 kB 81%][0m[33m3% [3 fonts-dejavu-extra 1,729 kB/1,944 kB 89%][0m[33m3% [3 fonts-dejavu-extra 1,898 kB/1,944 kB 98%][0m[33m                                               4% [Waiting for headers][0m                        Get:4 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 java-common all 0.77 [6,682 B]
+[33m4% [4 java-common 1,077 B/6,682 B 16%][0m[33m                                      5% [Working][0m            Get:5 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libatk-wrapper-java all 0.44.0-1 [55.2 kB]
+[33m5% [5 libatk-wrapper-java 1,389 B/55.2 kB 3%][0m[33m                                             6% [Waiting for headers][0m                        Get:6 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libatk-wrapper-java-jni amd64 0.44.0-1 [48.0 kB]
+[33m6% [6 libatk-wrapper-java-jni 14.2 kB/48.0 kB 30%][0m[33m                                                  7% [Waiting for headers][0m                        Get:7 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 xorg-sgml-doctools all 1:1.12.1-1 [10.9 kB]
+[33m7% [7 xorg-sgml-doctools 8,499 B/10.9 kB 78%][0m[33m                                             8% [Waiting for headers][0m                        Get:8 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 x11proto-dev all 2025.1-1 [608 kB]
+[33m8% [8 x11proto-dev 931 B/608 kB 0%][0m[33m8% [8 x11proto-dev 196 kB/608 kB 32%]                          407 kB/s 5min 5s[0m[33m8% [8 x11proto-dev 357 kB/608 kB 59%]                          407 kB/s 5min 5s[0m[33m8% [8 x11proto-dev 439 kB/608 kB 72%]                          407 kB/s 5min 5s[0m[33m9% [8 x11proto-dev 588 kB/608 kB 97%]                          407 kB/s 5min 4s[0m[33m9% [Waiting for headers]                                       407 kB/s 5min 4s[0m                                                                               Get:9 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libice-dev amd64 2:1.1.1-1build1 [53.5 kB]
+[33m9% [9 libice-dev 17.3 kB/53.5 kB 32%]                          407 kB/s 5min 4s[0m[33m10% [Waiting for headers]                                      407 kB/s 5min 4s[0m                                                                               Get:10 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 uuid-dev amd64 2.42.2-1ubuntu2 [50.0 kB]
+[33m10% [10 uuid-dev 3,745 B/50.0 kB 7%]                           407 kB/s 5min 4s[0m[33m11% [Waiting for headers]                                      407 kB/s 5min 4s[0m                                                                               Get:11 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libsm-dev amd64 2:1.2.6-1build1 [18.8 kB]
+                                                                               Get:12 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libxau-dev amd64 1:1.0.11-1build2 [9,712 B]
+[33m12% [12 libxau-dev 1,430 B/9,712 B 15%]                        407 kB/s 5min 4s[0m[33m13% [Working]                                                  407 kB/s 5min 4s[0m                                                                               Get:13 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libxdmcp-dev amd64 1:1.1.5-2 [25.7 kB]
+[33m13% [13 libxdmcp-dev 3,592 B/25.7 kB 14%]                      407 kB/s 5min 4s[0m[33m14% [Working]                                                  407 kB/s 5min 4s[0m                                                                               Get:14 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 xtrans-dev all 1.6.0-1build1 [66.2 kB]
+[33m14% [14 xtrans-dev 6,879 B/66.2 kB 10%]                        407 kB/s 5min 4s[0m[33m15% [Working]                                                  407 kB/s 5min 4s[0m                                                                               Get:15 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libxcb1-dev amd64 1.17.0-2ubuntu1 [86.3 kB]
+[33m15% [15 libxcb1-dev 136 B/86.3 kB 0%]                          407 kB/s 5min 4s[0m                                                                               Get:16 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libx11-dev amd64 2:1.8.13-1 [739 kB]
+[33m16% [16 libx11-dev 34.3 kB/739 kB 5%]                          407 kB/s 5min 3s[0m[33m16% [16 libx11-dev 222 kB/739 kB 30%]                          407 kB/s 5min 3s[0m[33m17% [16 libx11-dev 559 kB/739 kB 76%]                          407 kB/s 5min 2s[0m[33m18% [Waiting for headers]                                      407 kB/s 5min 2s[0m                                                                               Get:17 http://ru.archive.ubuntu.com/ubuntu stonking/main amd64 libxt-dev amd64 1:1.2.1-1.3build1 [396 kB]
+[33m18% [17 libxt-dev 5,414 B/396 kB 1%]                           407 kB/s 5min 2s[0m[33m18% [17 libxt-dev 310 kB/396 kB 78%]                           407 kB/s 5min 1s[0m[33m19% [Working]                                                  407 kB/s 5min 1s[0m                                                                               Get:18 http://ru.archive.ubuntu.com/ubuntu stonking-updates/universe amd64 openjdk-17-jre-headless amd64 17.0.21.0.3+1-1~26.10.1 [48.5 MB]
+[33m19% [18 openjdk-17-jre-headless 12.8 kB/48.5 MB 0%]            407 kB/s 5min 1s[0m[33m19% [18 openjdk-17-jre-headless 279 kB/48.5 MB 1%]             407 kB/s 5min 0s[0m[33m19% [18 openjdk-17-jre-headless 443 kB/48.5 MB 1%]             407 kB/s 5min 0s[0m[33m19% [18 openjdk-17-jre-headless 676 kB/48.5 MB 1%]            407 kB/s 4min 59s[0m[33m19% [18 openjdk-17-jre-headless 839 kB/48.5 MB 2%]            442 kB/s 4min 34s[0m[33m20% [18 openjdk-17-jre-headless 1,011 kB/48.5 MB 2%]          442 kB/s 4min 34s[0m[33m20% [18 openjdk-17-jre-headless 1,235 kB/48.5 MB 3%]          442 kB/s 4min 33s[0m[33m20% [18 openjdk-17-jre-headless 1,507 kB/48.5 MB 3%]          442 kB/s 4min 33s[0m[33m20% [18 openjdk-17-jre-headless 1,657 kB/48.5 MB 3%]          442 kB/s 4min 33s[0m[33m20% [18 openjdk-17-jre-headless 1,846 kB/48.5 MB 4%]          442 kB/s 4min 32s[0m[33m20% [18 openjdk-17-jre-headless 2,009 kB/48.5 MB 4%]          442 kB/s 4min 32s[0m[33m20% [18 openjdk-17-jre-headless 2,293 kB/48.5 MB 5%]          442 kB/s 4min 31s[0m[33m21% [18 openjdk-17-jre-headless 2,541 kB/48.5 MB 5%]          442 kB/s 4min 31s[0m[33m21% [18 openjdk-17-jre-headless 2,852 kB/48.5 MB 6%]          442 kB/s 4min 30s[0m[33m21% [18 openjdk-17-jre-headless 3,103 kB/48.5 MB 6%]          442 kB/s 4min 29s[0m[33m21% [18 openjdk-17-jre-headless 3,352 kB/48.5 MB 7%]          442 kB/s 4min 29s[0m[33m21% [18 openjdk-17-jre-headless 3,620 kB/48.5 MB 7%]          463 kB/s 4min 16s[0m[33m21% [18 openjdk-17-jre-headless 3,835 kB/48.5 MB 8%]          463 kB/s 4min 16s[0m[33m22% [18 openjdk-17-jre-headless 4,068 kB/48.5 MB 8%]          463 kB/s 4min 15s[0m[33m22% [18 openjdk-17-jre-headless 4,200 kB/48.5 MB 9%]          463 kB/s 4min 15s[0m[33m22% [18 openjdk-17-jre-headless 4,350 kB/48.5 MB 9%]          463 kB/s 4min 15s[0m[33m22% [18 openjdk-17-jre-headless 4,482 kB/48.5 MB 9%]          463 kB/s 4min 15s[0m[33m22% [18 openjdk-17-jre-headless 4,749 kB/48.5 MB 10%]         463 kB/s 4min 14s[0m[33m22% [18 openjdk-17-jre-headless 5,075 kB/48.5 MB 10%]         463 kB/s 4min 13s[0m[33m22% [18 openjdk-17-jre-headless 5,321 kB/48.5 MB 11%]         463 kB/s 4min 13s[0m[33m23% [18 openjdk-17-jre-headless 5,677 kB/48.5 MB 12%]         463 kB/s 4min 12s[0m[33m23% [18 openjdk-17-jre-headless 6,097 kB/48.5 MB 13%]         463 kB/s 4min 11s[0m[33m23% [18 openjdk-17-jre-headless 6,359 kB/48.5 MB 13%]         463 kB/s 4min 10s[0m[33m23% [18 openjdk-17-jre-headless 6,659 kB/48.5 MB 14%]         505 kB/s 3min 49s[0m[33m24% [18 openjdk-17-jre-headless 7,207 kB/48.5 MB 15%]         505 kB/s 3min 48s[0m[33m24% [18 openjdk-17-jre-headless 7,845 kB/48.5 MB 16%]         505 kB/s 3min 46s[0m[33m24% [18 openjdk-17-jre-headless 8,306 kB/48.5 MB 17%]         505 kB/s 3min 45s[0m[33m24% [18 openjdk-17-jre-headless 8,584 kB/48.5 MB 18%]         505 kB/s 3min 45s[0m[33m24% [18 openjdk-17-jre-headless 8,754 kB/48.5 MB 18%]         505 kB/s 3min 45s[0m[33m25% [18 openjdk-17-jre-headless 8,903 kB/48.5 MB 18%]         505 kB/s 3min 44s[0m[33m25% [18 openjdk-17-jre-headless 9,148 kB/48.5 MB 19%]         505 kB/s 3min 44s[0m[33m25% [18 openjdk-17-jre-headless 9,510 kB/48.5 MB 20%]         505 kB/s 3min 43s[0m[33m25% [18 openjdk-17-jre-headless 9,919 kB/48.5 MB 20%]         505 kB/s 3min 42s[0m[33m25% [18 openjdk-17-jre-headless 10.2 MB/48.5 MB 21%]          505 kB/s 3min 42s[0m[33m26% [18 openjdk-17-jre-headless 10.5 MB/48.5 MB 22%]          505 kB/s 3min 41s[0m[33m26% [18 openjdk-17-jre-headless 10.7 MB/48.5 MB 22%]          668 kB/s 2min 47s[0m[33m26% [18 openjdk-17-jre-headless 10.8 MB/48.5 MB 22%]          668 kB/s 2min 47s[0m[33m26% [18 openjdk-17-jre-headless 11.1 MB/48.5 MB 23%]          668 kB/s 2min 46s[0m[33m26% [18 openjdk-17-jre-headless 11.2 MB/48.5 MB 23%]          668 kB/s 2min 46s[0m[33m26% [18 openjdk-17-jre-headless 11.3 MB/48.5 MB 23%]          668 kB/s 2min 46s[0m[33m26% [18 openjdk-17-jre-headless 11.5 MB/48.5 MB 24%]          668 kB/s 2min 46s[0m[33m26% [18 openjdk-17-jre-headless 11.7 MB/48.5 MB 24%]          668 kB/s 2min 45s[0m[33m27% [18 openjdk-17-jre-headless 12.1 MB/48.5 MB 25%]          668 kB/s 2min 45s[0m[33m27% [18 openjdk-17-jre-headless 12.6 MB/48.5 MB 26%]          668 kB/s 2min 44s[0m[33m27% [18 openjdk-17-jre-headless 12.8 MB/48.5 MB 26%]          668 kB/s 2min 44s[0m[33m27% [18 openjdk-17-jre-headless 13.2 MB/48.5 MB 27%]          668 kB/s 2min 43s[0m[33m27% [18 openjdk-17-jre-headless 13.4 MB/48.5 MB 28%]          668 kB/s 2min 43s[0m[33m28% [18 openjdk-17-jre-headless 13.7 MB/48.5 MB 28%]          507 kB/s 3min 34s[0m[33m28% [18 openjdk-17-jre-headless 14.1 MB/48.5 MB 29%]          507 kB/s 3min 33s[0m[33m28% [18 openjdk-17-jre-headless 14.4 MB/48.5 MB 30%]          507 kB/s 3min 33s[0m[33m28% [18 openjdk-17-jre-headless 14.7 MB/48.5 MB 30%]          507 kB/s 3min 32s[0m[33m28% [18 openjdk-17-jre-headless 14.9 MB/48.5 MB 31%]          507 kB/s 3min 32s[0m[33m29% [18 openjdk-17-jre-headless 15.1 MB/48.5 MB 31%]          507 kB/s 3min 31s[0m[33m29% [18 openjdk-17-jre-headless 15.5 MB/48.5 MB 32%]          507 kB/s 3min 30s[0m[33m29% [18 openjdk-17-jre-headless 15.9 MB/48.5 MB 33%]          507 kB/s 3min 30s[0m[33m29% [18 openjdk-17-jre-headless 16.1 MB/48.5 MB 33%]          507 kB/s 3min 29s[0m[33m29% [18 openjdk-17-jre-headless 16.2 MB/48.5 MB 33%]          507 kB/s 3min 29s[0m[33m29% [18 openjdk-17-jre-headless 16.3 MB/48.5 MB 34%]          507 kB/s 3min 29s[0m[33m29% [18 openjdk-17-jre-headless 16.5 MB/48.5 MB 34%]          507 kB/s 3min 29s[0m[33m29% [18 openjdk-17-jre-headless 16.7 MB/48.5 MB 34%]          491 kB/s 3min 35s[0m[33m30% [18 openjdk-17-jre-headless 16.9 MB/48.5 MB 35%]          491 kB/s 3min 34s[0m[33m30% [18 openjdk-17-jre-headless 17.2 MB/48.5 MB 35%]          491 kB/s 3min 34s[0m[33m30% [18 openjdk-17-jre-headless 17.5 MB/48.5 MB 36%]          491 kB/s 3min 33s[0m[33m30% [18 openjdk-17-jre-headless 17.7 MB/48.5 MB 37%]          491 kB/s 3min 33s[0m[33m30% [18 openjdk-17-jre-headless 17.9 MB/48.5 MB 37%]          491 kB/s 3min 32s[0m[33m30% [18 openjdk-17-jre-headless 18.2 MB/48.5 MB 38%]          491 kB/s 3min 32s[0m[33m31% [18 openjdk-17-jre-headless 18.6 MB/48.5 MB 38%]          491 kB/s 3min 31s[0m[33m31% [18 openjdk-17-jre-headless 19.2 MB/48.5 MB 40%]          491 kB/s 3min 30s[0m[33m31% [18 openjdk-17-jre-headless 19.6 MB/48.5 MB 40%]          491 kB/s 3min 29s[0m[33m32% [18 openjdk-17-jre-headless 20.1 MB/48.5 MB 41%]          491 kB/s 3min 28s[0m[33m32% [18 openjdk-17-jre-headless 20.5 MB/48.5 MB 42%]          491 kB/s 3min 27s[0m[33m32% [18 openjdk-17-jre-headless 20.9 MB/48.5 MB 43%]          708 kB/s 2min 23s[0m[33m33% [18 openjdk-17-jre-headless 21.5 MB/48.5 MB 44%]          708 kB/s 2min 22s[0m[33m33% [18 openjdk-17-jre-headless 22.0 MB/48.5 MB 45%]          708 kB/s 2min 21s[0m[33m33% [18 openjdk-17-jre-headless 22.4 MB/48.5 MB 46%]          708 kB/s 2min 21s[0m[33m33% [18 openjdk-17-jre-headless 22.7 MB/48.5 MB 47%]          708 kB/s 2min 20s[0m[33m33% [18 openjdk-17-jre-headless 23.0 MB/48.5 MB 47%]          708 kB/s 2min 20s[0m[33m34% [18 openjdk-17-jre-headless 23.2 MB/48.5 MB 48%]          708 kB/s 2min 20s[0m[33m34% [18 openjdk-17-jre-headless 23.4 MB/48.5 MB 48%]          708 kB/s 2min 19s[0m[33m34% [18 openjdk-17-jre-headless 23.6 MB/48.5 MB 49%]          708 kB/s 2min 19s[0m[33m34% [18 openjdk-17-jre-headless 23.8 MB/48.5 MB 49%]          708 kB/s 2min 19s[0m[33m34% [18 openjdk-17-jre-headless 23.9 MB/48.5 MB 49%]          708 kB/s 2min 19s[0m[33m34% [18 openjdk-17-jre-headless 24.0 MB/48.5 MB 50%]          708 kB/s 2min 19s[0m[33m34% [18 openjdk-17-jre-headless 24.0 MB/48.5 MB 50%]          518 kB/s 3min 10s[0m[33m34% [18 openjdk-17-jre-headless 24.1 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.2 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.2 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.3 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.4 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.4 MB/48.5 MB 50%]           518 kB/s 3min 9s[0m[33m34% [18 openjdk-17-jre-headless 24.5 MB/48.5 MB 51%]           518 kB/s 3min 9s[0m[33m35% [18 openjdk-17-jre-headless 24.8 MB/48.5 MB 51%]           518 kB/s 3min 8s[0m[33m35% [18 openjdk-17-jre-headless 25.1 MB/48.5 MB 52%]           518 kB/s 3min 7s[0m[33m35% [18 openjdk-17-jre-headless 25.6 MB/48.5 MB 53%]           518 kB/s 3min 7s[0m[33m35% [18 openjdk-17-jre-headless 26.0 MB/48.5 MB 54%]           518 kB/s 3min 6s[0m[33m36% [18 openjdk-17-jre-headless 26.6 MB/48.5 MB 55%]          424 kB/s 3min 46s[0m[33m36% [18 openjdk-17-jre-headless 27.1 MB/48.5 MB 56%]          424 kB/s 3min 45s[0m[33m36% [18 openjdk-17-jre-headless 27.4 MB/48.5 MB 57%]          424 kB/s 3min 44s[0m[33m36% [18 openjdk-17-jre-headless 27.7 MB/48.5 MB 57%]          424 kB/s 3min 43s[0m[33m37% [18 openjdk-17-jre-headless 28.0 MB/48.5 MB 58%]          424 kB/s 3min 43s[0m[33m37% [18 openjdk-17-jre-headless 28.3 MB/48.5 MB 58%]          424 kB/s 3min 42s[0m[33m37% [18 openjdk-17-jre-headless 28.7 MB/48.5 MB 59%]          424 kB/s 3min 41s[0m[33m37% [18 openjdk-17-jre-headless 29.0 MB/48.5 MB 60%]          424 kB/s 3min 40s[0m[33m37% [18 openjdk-17-jre-headless 29.3 MB/48.5 MB 61%]          424 kB/s 3min 39s[0m[33m38% [18 openjdk-17-jre-headless 29.7 MB/48.5 MB 61%]          424 kB/s 3min 38s[0m[33m38% [18 openjdk-17-jre-headless 30.0 MB/48.5 MB 62%]          424 kB/s 3min 38s[0m[33m38% [18 openjdk-17-jre-headless 30.4 MB/48.5 MB 63%]          424 kB/s 3min 37s[0m[33m38% [18 openjdk-17-jre-headless 30.6 MB/48.5 MB 63%]          669 kB/s 2min 17s[0m[33m38% [18 openjdk-17-jre-headless 30.8 MB/48.5 MB 63%]          669 kB/s 2min 17s[0m[33m38% [18 openjdk-17-jre-headless 30.9 MB/48.5 MB 64%]          669 kB/s 2min 16s[0m[33m39% [18 openjdk-17-jre-headless 31.1 MB/48.5 MB 64%]          669 kB/s 2min 16s[0m[33m39% [18 openjdk-17-jre-headless 31.3 MB/48.5 MB 65%]          669 kB/s 2min 16s[0m[33m39% [18 openjdk-17-jre-headless 31.6 MB/48.5 MB 65%]          669 kB/s 2min 15s[0m[33m39% [18 openjdk-17-jre-headless 32.0 MB/48.5 MB 66%]          669 kB/s 2min 15s[0m[33m39% [18 openjdk-17-jre-headless 32.5 MB/48.5 MB 67%]          669 kB/s 2min 14s[0m[33m40% [18 openjdk-17-jre-headless 32.9 MB/48.5 MB 68%]          669 kB/s 2min 13s[0m[33m40% [18 openjdk-17-jre-headless 33.2 MB/48.5 MB 69%]          669 kB/s 2min 13s[0m[33m40% [18 openjdk-17-jre-headless 33.5 MB/48.5 MB 69%]          669 kB/s 2min 13s[0m[33m40% [18 openjdk-17-jre-headless 33.7 MB/48.5 MB 70%]          669 kB/s 2min 12s[0m[33m40% [18 openjdk-17-jre-headless 34.1 MB/48.5 MB 70%]          575 kB/s 2min 33s[0m[33m41% [18 openjdk-17-jre-headless 34.5 MB/48.5 MB 71%]          575 kB/s 2min 32s[0m[33m41% [18 openjdk-17-jre-headless 34.8 MB/48.5 MB 72%]          575 kB/s 2min 32s[0m[33m41% [18 openjdk-17-jre-headless 35.2 MB/48.5 MB 73%]          575 kB/s 2min 31s[0m[33m41% [18 openjdk-17-jre-headless 35.4 MB/48.5 MB 73%]          575 kB/s 2min 31s[0m[33m41% [18 openjdk-17-jre-headless 35.7 MB/48.5 MB 74%]          575 kB/s 2min 30s[0m[33m42% [18 openjdk-17-jre-headless 35.9 MB/48.5 MB 74%]          575 kB/s 2min 30s[0m[33m42% [18 openjdk-17-jre-headless 36.3 MB/48.5 MB 75%]          575 kB/s 2min 29s[0m[33m42% [18 openjdk-17-jre-headless 36.8 MB/48.5 MB 76%]          575 kB/s 2min 28s[0m[33m43% [18 openjdk-17-jre-headless 37.5 MB/48.5 MB 77%]          575 kB/s 2min 27s[0m[33m43% [18 openjdk-17-jre-headless 38.3 MB/48.5 MB 79%]          575 kB/s 2min 26s[0m[33m43% [18 openjdk-17-jre-headless 38.7 MB/48.5 MB 80%]          575 kB/s 2min 25s[0m[33m44% [18 openjdk-17-jre-headless 38.9 MB/48.5 MB 80%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.0 MB/48.5 MB 81%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.1 MB/48.5 MB 81%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.2 MB/48.5 MB 81%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.3 MB/48.5 MB 81%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.4 MB/48.5 MB 81%]          805 kB/s 1min 43s[0m[33m44% [18 openjdk-17-jre-headless 39.7 MB/48.5 MB 82%]          805 kB/s 1min 42s[0m[33m44% [18 openjdk-17-jre-headless 40.1 MB/48.5 MB 83%]          805 kB/s 1min 42s[0m[33m44% [18 openjdk-17-jre-headless 40.3 MB/48.5 MB 83%]          805 kB/s 1min 42s[0m[33m45% [18 openjdk-17-jre-headless 40.8 MB/48.5 MB 84%]          805 kB/s 1min 41s[0m[33m45% [18 openjdk-17-jre-headless 41.3 MB/48.5 MB 85%]          805 kB/s 1min 40s[0m[33m45% [18 openjdk-17-jre-headless 42.1 MB/48.5 MB 87%]          805 kB/s 1min 39s[0m[33m46% [18 openjdk-17-jre-headless 42.8 MB/48.5 MB 88%]           641 kB/s 2min 4s[0m[33m46% [18 openjdk-17-jre-headless 42.9 MB/48.5 MB 89%]           641 kB/s 2min 3s[0m[33m46% [18 openjdk-17-jre-headless 43.2 MB/48.5 MB 89%]           641 kB/s 2min 3s[0m[33m46% [18 openjdk-17-jre-headless 43.4 MB/48.5 MB 89%]           641 kB/s 2min 3s[0m[33m46% [18 openjdk-17-jre-headless 43.6 MB/48.5 MB 90%]           641 kB/s 2min 2s[0m[33m47% [18 openjdk-17-jre-headless 44.0 MB/48.5 MB 91%]           641 kB/s 2min 2s[0m[33m47% [18 openjdk-17-jre-headless 44.2 MB/48.5 MB 91%]           641 kB/s 2min 2s[0m[33m47% [18 openjdk-17-jre-headless 44.5 MB/48.5 MB 92%]           641 kB/s 2min 1s[0m[33m47% [18 openjdk-17-jre-headless 44.8 MB/48.5 MB 92%]           641 kB/s 2min 1s[0m[33m47% [18 openjdk-17-jre-headless 45.1 MB/48.5 MB 93%]           641 kB/s 2min 0s[0m[33m48% [18 openjdk-17-jre-headless 45.6 MB/48.5 MB 94%]          641 kB/s 1min 59s[0m[33m48% [18 openjdk-17-jre-headless 46.3 MB/48.5 MB 95%]          641 kB/s 1min 58s[0m[33m49% [18 openjdk-17-jre-headless 46.9 MB/48.5 MB 97%]          687 kB/s 1min 50s[0m[33m49% [18 openjdk-17-jre-headless 47.4 MB/48.5 MB 98%]          687 kB/s 1min 49s[0m[33m49% [18 openjdk-17-jre-headless 47.7 MB/48.5 MB 98%]          687 kB/s 1min 48s[0m[33m49% [18 openjdk-17-jre-headless 47.9 MB/48.5 MB 99%]          687 kB/s 1min 48s[0m[33m49% [18 openjdk-17-jre-headless 48.1 MB/48.5 MB 99%]          687 kB/s 1min 48s[0m[33m49% [18 openjdk-17-jre-headless 48.4 MB/48.5 MB 100%]         687 kB/s 1min 47s[0m                                                                               Get:19 http://ru.archive.ubuntu.com/ubuntu stonking-updates/universe amd64 openjdk-17-jre amd64 17.0.21.0.3+1-1~26.10.1 [234 kB]
+[33m50% [19 openjdk-17-jre 2,466 B/234 kB 1%]                     687 kB/s 1min 47s[0m[33m52% [Waiting for headers]                                     687 kB/s 1min 47s[0m                                                                               Get:20 http://ru.archive.ubuntu.com/ubuntu stonking-updates/universe amd64 openjdk-17-jdk-headless amd64 17.0.21.0.3+1-1~26.10.1 [72.2 MB]
+[33m52% [20 openjdk-17-jdk-headless 29.2 kB/72.2 MB 0%]           687 kB/s 1min 47s[0m[33m52% [20 openjdk-17-jdk-headless 279 kB/72.2 MB 0%]            687 kB/s 1min 46s[0m[33m52% [20 openjdk-17-jdk-headless 634 kB/72.2 MB 1%]            687 kB/s 1min 46s[0m[33m52% [20 openjdk-17-jdk-headless 988 kB/72.2 MB 1%]            687 kB/s 1min 45s[0m[33m52% [20 openjdk-17-jdk-headless 1,320 kB/72.2 MB 2%]          687 kB/s 1min 45s[0m[33m53% [20 openjdk-17-jdk-headless 1,779 kB/72.2 MB 2%]          687 kB/s 1min 44s[0m[33m53% [20 openjdk-17-jdk-headless 2,274 kB/72.2 MB 3%]          687 kB/s 1min 44s[0m[33m53% [20 openjdk-17-jdk-headless 2,706 kB/72.2 MB 4%]          705 kB/s 1min 40s[0m[33m54% [20 openjdk-17-jdk-headless 3,244 kB/72.2 MB 4%]          705 kB/s 1min 39s[0m[33m54% [20 openjdk-17-jdk-headless 3,937 kB/72.2 MB 5%]          705 kB/s 1min 38s[0m[33m55% [20 openjdk-17-jdk-headless 4,926 kB/72.2 MB 7%]          705 kB/s 1min 37s[0m[33m56% [20 openjdk-17-jdk-headless 6,455 kB/72.2 MB 9%]          705 kB/s 1min 35s[0m[33m56% [20 openjdk-17-jdk-headless 7,513 kB/72.2 MB 10%]         705 kB/s 1min 33s[0m[33m57% [20 openjdk-17-jdk-headless 7,976 kB/72.2 MB 11%]         705 kB/s 1min 33s[0m[33m57% [20 openjdk-17-jdk-headless 8,186 kB/72.2 MB 11%]         705 kB/s 1min 32s[0m[33m57% [20 openjdk-17-jdk-headless 8,476 kB/72.2 MB 12%]         705 kB/s 1min 32s[0m[33m57% [20 openjdk-17-jdk-headless 8,900 kB/72.2 MB 12%]         705 kB/s 1min 31s[0m[33m58% [20 openjdk-17-jdk-headless 9,511 kB/72.2 MB 13%]         705 kB/s 1min 31s[0m[33m58% [20 openjdk-17-jdk-headless 10.0 MB/72.2 MB 14%]          705 kB/s 1min 30s[0m[33m58% [20 openjdk-17-jdk-headless 10.6 MB/72.2 MB 15%]             1,310 kB/s 48s[0m[33m58% [20 openjdk-17-jdk-headless 10.9 MB/72.2 MB 15%]             1,310 kB/s 47s[0m[33m59% [20 openjdk-17-jdk-headless 11.4 MB/72.2 MB 16%]             1,310 kB/s 47s[0m[33m59% [20 openjdk-17-jdk-headless 11.9 MB/72.2 MB 16%]             1,310 kB/s 47s[0m[33m59% [20 openjdk-17-jdk-headless 12.3 MB/72.2 MB 17%]             1,310 kB/s 46s[0m[33m60% [20 openjdk-17-jdk-headless 12.8 MB/72.2 MB 18%]             1,310 kB/s 46s[0m[33m60% [20 openjdk-17-jdk-headless 13.1 MB/72.2 MB 18%]             1,310 kB/s 46s[0m[33m60% [20 openjdk-17-jdk-headless 13.6 MB/72.2 MB 19%]             1,310 kB/s 45s[0m[33m60% [20 openjdk-17-jdk-headless 14.0 MB/72.2 MB 19%]             1,310 kB/s 45s[0m[33m61% [20 openjdk-17-jdk-headless 14.4 MB/72.2 MB 20%]             1,310 kB/s 45s[0m[33m61% [20 openjdk-17-jdk-headless 14.7 MB/72.2 MB 20%]             1,310 kB/s 45s[0m[33m61% [20 openjdk-17-jdk-headless 15.0 MB/72.2 MB 21%]             1,310 kB/s 44s[0m[33m61% [20 openjdk-17-jdk-headless 15.5 MB/72.2 MB 22%]          825 kB/s 1min 10s[0m[33m62% [20 openjdk-17-jdk-headless 15.9 MB/72.2 MB 22%]          825 kB/s 1min 10s[0m[33m62% [20 openjdk-17-jdk-headless 16.3 MB/72.2 MB 23%]           825 kB/s 1min 9s[0m[33m62% [20 openjdk-17-jdk-headless 16.5 MB/72.2 MB 23%]           825 kB/s 1min 9s[0m[33m62% [20 openjdk-17-jdk-headless 16.9 MB/72.2 MB 23%]           825 kB/s 1min 8s[0m[33m62% [20 openjdk-17-jdk-headless 17.3 MB/72.2 MB 24%]           825 kB/s 1min 8s[0m[33m63% [20 openjdk-17-jdk-headless 17.6 MB/72.2 MB 24%]           825 kB/s 1min 8s[0m[33m63% [20 openjdk-17-jdk-headless 17.9 MB/72.2 MB 25%]           825 kB/s 1min 7s[0m[33m63% [20 openjdk-17-jdk-headless 18.1 MB/72.2 MB 25%]           825 kB/s 1min 7s[0m[33m63% [20 openjdk-17-jdk-headless 18.4 MB/72.2 MB 25%]           825 kB/s 1min 7s[0m[33m63% [20 openjdk-17-jdk-headless 18.7 MB/72.2 MB 26%]           825 kB/s 1min 6s[0m[33m64% [20 openjdk-17-jdk-headless 18.9 MB/72.2 MB 26%]           825 kB/s 1min 6s[0m[33m64% [20 openjdk-17-jdk-headless 19.3 MB/72.2 MB 27%]          625 kB/s 1min 27s[0m[33m64% [20 openjdk-17-jdk-headless 19.6 MB/72.2 MB 27%]          625 kB/s 1min 26s[0m[33m64% [20 openjdk-17-jdk-headless 19.8 MB/72.2 MB 27%]          625 kB/s 1min 26s[0m[33m64% [20 openjdk-17-jdk-headless 20.2 MB/72.2 MB 28%]          625 kB/s 1min 25s[0m[33m65% [20 openjdk-17-jdk-headless 20.5 MB/72.2 MB 28%]          625 kB/s 1min 25s[0m[33m65% [20 openjdk-17-jdk-headless 20.8 MB/72.2 MB 29%]          625 kB/s 1min 24s[0m[33m65% [20 openjdk-17-jdk-headless 21.0 MB/72.2 MB 29%]          625 kB/s 1min 24s[0m[33m65% [20 openjdk-17-jdk-headless 21.3 MB/72.2 MB 30%]          625 kB/s 1min 23s[0m[33m65% [20 openjdk-17-jdk-headless 21.6 MB/72.2 MB 30%]          625 kB/s 1min 23s[0m[33m65% [20 openjdk-17-jdk-headless 21.9 MB/72.2 MB 30%]          625 kB/s 1min 22s[0m[33m66% [20 openjdk-17-jdk-headless 22.1 MB/72.2 MB 31%]          625 kB/s 1min 22s[0m[33m66% [20 openjdk-17-jdk-headless 22.2 MB/72.2 MB 31%]          625 kB/s 1min 22s[0m[33m66% [20 openjdk-17-jdk-headless 22.4 MB/72.2 MB 31%]          512 kB/s 1min 40s[0m[33m66% [20 openjdk-17-jdk-headless 22.4 MB/72.2 MB 31%]          512 kB/s 1min 40s[0m[33m66% [20 openjdk-17-jdk-headless 22.5 MB/72.2 MB 31%]          512 kB/s 1min 40s[0m[33m66% [20 openjdk-17-jdk-headless 22.8 MB/72.2 MB 32%]          512 kB/s 1min 39s[0m[33m66% [20 openjdk-17-jdk-headless 23.0 MB/72.2 MB 32%]          512 kB/s 1min 39s[0m[33m66% [20 openjdk-17-jdk-headless 23.3 MB/72.2 MB 32%]          512 kB/s 1min 38s[0m[33m67% [20 openjdk-17-jdk-headless 23.8 MB/72.2 MB 33%]          512 kB/s 1min 37s[0m[33m67% [20 openjdk-17-jdk-headless 24.2 MB/72.2 MB 33%]          512 kB/s 1min 36s[0m[33m67% [20 openjdk-17-jdk-headless 24.4 MB/72.2 MB 34%]          512 kB/s 1min 36s[0m[33m67% [20 openjdk-17-jdk-headless 24.7 MB/72.2 MB 34%]          512 kB/s 1min 35s[0m[33m67% [20 openjdk-17-jdk-headless 24.9 MB/72.2 MB 35%]          512 kB/s 1min 35s[0m[33m67% [20 openjdk-17-jdk-headless 25.2 MB/72.2 MB 35%]          512 kB/s 1min 34s[0m[33m68% [20 openjdk-17-jdk-headless 25.5 MB/72.2 MB 35%]          515 kB/s 1min 33s[0m[33m68% [20 openjdk-17-jdk-headless 25.7 MB/72.2 MB 36%]          515 kB/s 1min 33s[0m[33m68% [20 openjdk-17-jdk-headless 26.1 MB/72.2 MB 36%]          515 kB/s 1min 32s[0m[33m68% [20 openjdk-17-jdk-headless 26.5 MB/72.2 MB 37%]          515 kB/s 1min 31s[0m[33m68% [20 openjdk-17-jdk-headless 26.7 MB/72.2 MB 37%]          515 kB/s 1min 31s[0m[33m69% [20 openjdk-17-jdk-headless 27.0 MB/72.2 MB 37%]          515 kB/s 1min 30s[0m[33m69% [20 openjdk-17-jdk-headless 27.2 MB/72.2 MB 38%]          515 kB/s 1min 30s[0m[33m69% [20 openjdk-17-jdk-headless 27.4 MB/72.2 MB 38%]          515 kB/s 1min 29s[0m[33m69% [20 openjdk-17-jdk-headless 27.6 MB/72.2 MB 38%]          515 kB/s 1min 29s[0m[33m69% [20 openjdk-17-jdk-headless 27.9 MB/72.2 MB 39%]          515 kB/s 1min 29s[0m[33m69% [20 openjdk-17-jdk-headless 28.2 MB/72.2 MB 39%]          515 kB/s 1min 28s[0m[33m70% [20 openjdk-17-jdk-headless 28.4 MB/72.2 MB 39%]          515 kB/s 1min 28s[0m[33m70% [20 openjdk-17-jdk-headless 28.8 MB/72.2 MB 40%]          548 kB/s 1min 22s[0m[33m70% [20 openjdk-17-jdk-headless 29.0 MB/72.2 MB 40%]          548 kB/s 1min 21s[0m[33m70% [20 openjdk-17-jdk-headless 29.2 MB/72.2 MB 40%]          548 kB/s 1min 21s[0m[33m70% [20 openjdk-17-jdk-headless 29.4 MB/72.2 MB 41%]          548 kB/s 1min 20s[0m[33m70% [20 openjdk-17-jdk-headless 29.7 MB/72.2 MB 41%]          548 kB/s 1min 20s[0m[33m70% [20 openjdk-17-jdk-headless 30.0 MB/72.2 MB 42%]          548 kB/s 1min 19s[0m[33m71% [20 openjdk-17-jdk-headless 30.2 MB/72.2 MB 42%]          548 kB/s 1min 19s[0m[33m71% [20 openjdk-17-jdk-headless 30.5 MB/72.2 MB 42%]          548 kB/s 1min 19s[0m[33m71% [20 openjdk-17-jdk-headless 30.8 MB/72.2 MB 43%]          548 kB/s 1min 18s[0m[33m71% [20 openjdk-17-jdk-headless 31.2 MB/72.2 MB 43%]          548 kB/s 1min 17s[0m[33m72% [20 openjdk-17-jdk-headless 31.7 MB/72.2 MB 44%]          548 kB/s 1min 16s[0m[33m72% [20 openjdk-17-jdk-headless 32.1 MB/72.2 MB 44%]          548 kB/s 1min 16s[0m[33m72% [20 openjdk-17-jdk-headless 32.4 MB/72.2 MB 45%]           600 kB/s 1min 8s[0m[33m72% [20 openjdk-17-jdk-headless 32.6 MB/72.2 MB 45%]           600 kB/s 1min 8s[0m[33m72% [20 openjdk-17-jdk-headless 32.8 MB/72.2 MB 45%]           600 kB/s 1min 8s[0m[33m72% [20 openjdk-17-jdk-headless 33.1 MB/72.2 MB 46%]           600 kB/s 1min 7s[0m[33m73% [20 openjdk-17-jdk-headless 33.3 MB/72.2 MB 46%]           600 kB/s 1min 7s[0m[33m73% [20 openjdk-17-jdk-headless 33.4 MB/72.2 MB 46%]           600 kB/s 1min 7s[0m[33m73% [20 openjdk-17-jdk-headless 33.6 MB/72.2 MB 47%]           600 kB/s 1min 6s[0m[33m73% [20 openjdk-17-jdk-headless 33.8 MB/72.2 MB 47%]           600 kB/s 1min 6s[0m[33m73% [20 openjdk-17-jdk-headless 34.1 MB/72.2 MB 47%]           600 kB/s 1min 6s[0m[33m73% [20 openjdk-17-jdk-headless 34.4 MB/72.2 MB 48%]           600 kB/s 1min 5s[0m[33m73% [20 openjdk-17-jdk-headless 34.6 MB/72.2 MB 48%]           600 kB/s 1min 5s[0m[33m74% [20 openjdk-17-jdk-headless 34.8 MB/72.2 MB 48%]           600 kB/s 1min 4s[0m[33m74% [20 openjdk-17-jdk-headless 35.1 MB/72.2 MB 49%]          449 kB/s 1min 26s[0m[33m74% [20 openjdk-17-jdk-headless 35.3 MB/72.2 MB 49%]          449 kB/s 1min 25s[0m[33m74% [20 openjdk-17-jdk-headless 35.5 MB/72.2 MB 49%]          449 kB/s 1min 25s[0m[33m74% [20 openjdk-17-jdk-headless 35.7 MB/72.2 MB 49%]          449 kB/s 1min 24s[0m[33m74% [20 openjdk-17-jdk-headless 36.1 MB/72.2 MB 50%]          449 kB/s 1min 23s[0m[33m75% [20 openjdk-17-jdk-headless 36.6 MB/72.2 MB 51%]          449 kB/s 1min 22s[0m[33m75% [20 openjdk-17-jdk-headless 37.0 MB/72.2 MB 51%]          449 kB/s 1min 21s[0m[33m75% [20 openjdk-17-jdk-headless 37.5 MB/72.2 MB 52%]          449 kB/s 1min 20s[0m[33m75% [20 openjdk-17-jdk-headless 37.9 MB/72.2 MB 52%]          449 kB/s 1min 19s[0m[33m76% [20 openjdk-17-jdk-headless 38.1 MB/72.2 MB 53%]          449 kB/s 1min 19s[0m[33m76% [20 openjdk-17-jdk-headless 38.3 MB/72.2 MB 53%]          449 kB/s 1min 19s[0m[33m76% [20 openjdk-17-jdk-headless 38.5 MB/72.2 MB 53%]          449 kB/s 1min 18s[0m[33m76% [20 openjdk-17-jdk-headless 38.8 MB/72.2 MB 54%]               626 kB/s 55s[0m[33m76% [20 openjdk-17-jdk-headless 39.4 MB/72.2 MB 54%]               626 kB/s 54s[0m[33m77% [20 openjdk-17-jdk-headless 39.8 MB/72.2 MB 55%]               626 kB/s 54s[0m[33m77% [20 openjdk-17-jdk-headless 40.1 MB/72.2 MB 55%]               626 kB/s 53s[0m[33m77% [20 openjdk-17-jdk-headless 40.4 MB/72.2 MB 56%]               626 kB/s 53s[0m[33m77% [20 openjdk-17-jdk-headless 40.9 MB/72.2 MB 57%]               626 kB/s 52s[0m[33m78% [20 openjdk-17-jdk-headless 41.6 MB/72.2 MB 58%]               626 kB/s 51s[0m[33m78% [20 openjdk-17-jdk-headless 42.2 MB/72.2 MB 58%]               626 kB/s 50s[0m[33m78% [20 openjdk-17-jdk-headless 42.5 MB/72.2 MB 59%]               626 kB/s 49s[0m[33m79% [20 openjdk-17-jdk-headless 42.7 MB/72.2 MB 59%]               626 kB/s 49s[0m[33m79% [20 openjdk-17-jdk-headless 43.0 MB/72.2 MB 60%]               626 kB/s 49s[0m[33m79% [20 openjdk-17-jdk-headless 43.3 MB/72.2 MB 60%]               626 kB/s 48s[0m[33m79% [20 openjdk-17-jdk-headless 43.6 MB/72.2 MB 60%]               791 kB/s 38s[0m[33m79% [20 openjdk-17-jdk-headless 44.1 MB/72.2 MB 61%]               791 kB/s 37s[0m[33m80% [20 openjdk-17-jdk-headless 44.4 MB/72.2 MB 61%]               791 kB/s 37s[0m[33m80% [20 openjdk-17-jdk-headless 44.6 MB/72.2 MB 62%]               791 kB/s 36s[0m[33m80% [20 openjdk-17-jdk-headless 45.0 MB/72.2 MB 62%]               791 kB/s 36s[0m[33m80% [20 openjdk-17-jdk-headless 45.4 MB/72.2 MB 63%]               791 kB/s 35s[0m[33m80% [20 openjdk-17-jdk-headless 45.7 MB/72.2 MB 63%]               791 kB/s 35s[0m[33m81% [20 openjdk-17-jdk-headless 46.1 MB/72.2 MB 64%]               791 kB/s 34s[0m[33m81% [20 openjdk-17-jdk-headless 46.4 MB/72.2 MB 64%]               791 kB/s 34s[0m[33m81% [20 openjdk-17-jdk-headless 46.6 MB/72.2 MB 64%]               791 kB/s 34s[0m[33m81% [20 openjdk-17-jdk-headless 46.9 MB/72.2 MB 65%]               791 kB/s 33s[0m[33m81% [20 openjdk-17-jdk-headless 47.2 MB/72.2 MB 65%]               791 kB/s 33s[0m[33m82% [20 openjdk-17-jdk-headless 47.5 MB/72.2 MB 66%]               650 kB/s 40s[0m[33m82% [20 openjdk-17-jdk-headless 47.9 MB/72.2 MB 66%]               650 kB/s 39s[0m[33m82% [20 openjdk-17-jdk-headless 48.6 MB/72.2 MB 67%]               650 kB/s 38s[0m[33m83% [20 openjdk-17-jdk-headless 49.0 MB/72.2 MB 68%]               650 kB/s 38s[0m[33m83% [20 openjdk-17-jdk-headless 49.3 MB/72.2 MB 68%]               650 kB/s 37s[0m[33m83% [20 openjdk-17-jdk-headless 49.7 MB/72.2 MB 69%]               650 kB/s 36s[0m[33m83% [20 openjdk-17-jdk-headless 50.0 MB/72.2 MB 69%]               650 kB/s 36s[0m[33m83% [20 openjdk-17-jdk-headless 50.2 MB/72.2 MB 70%]               650 kB/s 36s[0m[33m83% [20 openjdk-17-jdk-headless 50.5 MB/72.2 MB 70%]               650 kB/s 35s[0m[33m84% [20 openjdk-17-jdk-headless 50.9 MB/72.2 MB 70%]               650 kB/s 35s[0m[33m84% [20 openjdk-17-jdk-headless 51.5 MB/72.2 MB 71%]               650 kB/s 34s[0m[33m84% [20 openjdk-17-jdk-headless 52.1 MB/72.2 MB 72%]               650 kB/s 33s[0m[33m85% [20 openjdk-17-jdk-headless 52.4 MB/72.2 MB 73%]               821 kB/s 25s[0m[33m85% [20 openjdk-17-jdk-headless 52.7 MB/72.2 MB 73%]               821 kB/s 25s[0m[33m85% [20 openjdk-17-jdk-headless 52.9 MB/72.2 MB 73%]               821 kB/s 25s[0m[33m85% [20 openjdk-17-jdk-headless 53.4 MB/72.2 MB 74%]               821 kB/s 24s[0m[33m85% [20 openjdk-17-jdk-headless 53.7 MB/72.2 MB 74%]               821 kB/s 24s[0m[33m86% [20 openjdk-17-jdk-headless 54.1 MB/72.2 MB 75%]               821 kB/s 23s[0m[33m86% [20 openjdk-17-jdk-headless 54.6 MB/72.2 MB 76%]               821 kB/s 23s[0m[33m86% [20 openjdk-17-jdk-headless 55.0 MB/72.2 MB 76%]               821 kB/s 22s[0m[33m86% [20 openjdk-17-jdk-headless 55.4 MB/72.2 MB 77%]               821 kB/s 22s[0m[33m87% [20 openjdk-17-jdk-headless 55.7 MB/72.2 MB 77%]               821 kB/s 22s[0m[33m87% [20 openjdk-17-jdk-headless 56.1 MB/72.2 MB 78%]               821 kB/s 21s[0m[33m87% [20 openjdk-17-jdk-headless 56.6 MB/72.2 MB 78%]               821 kB/s 20s[0m[33m87% [20 openjdk-17-jdk-headless 56.9 MB/72.2 MB 79%]               737 kB/s 22s[0m[33m88% [20 openjdk-17-jdk-headless 57.2 MB/72.2 MB 79%]               737 kB/s 22s[0m[33m88% [20 openjdk-17-jdk-headless 57.5 MB/72.2 MB 80%]               737 kB/s 22s[0m[33m88% [20 openjdk-17-jdk-headless 57.9 MB/72.2 MB 80%]               737 kB/s 21s[0m[33m88% [20 openjdk-17-jdk-headless 58.3 MB/72.2 MB 81%]               737 kB/s 20s[0m[33m89% [20 openjdk-17-jdk-headless 58.6 MB/72.2 MB 81%]               737 kB/s 20s[0m[33m89% [20 openjdk-17-jdk-headless 59.1 MB/72.2 MB 82%]               737 kB/s 19s[0m[33m89% [20 openjdk-17-jdk-headless 59.7 MB/72.2 MB 83%]               737 kB/s 19s[0m[33m90% [20 openjdk-17-jdk-headless 60.7 MB/72.2 MB 84%]               737 kB/s 17s[0m[33m91% [20 openjdk-17-jdk-headless 62.2 MB/72.2 MB 86%]               737 kB/s 15s[0m[33m92% [20 openjdk-17-jdk-headless 64.0 MB/72.2 MB 89%]               737 kB/s 13s[0m[33m93% [20 openjdk-17-jdk-headless 65.0 MB/72.2 MB 90%]               737 kB/s 11s[0m[33m93% [20 openjdk-17-jdk-headless 65.4 MB/72.2 MB 91%]              1,419 kB/s 5s[0m[33m93% [20 openjdk-17-jdk-headless 65.7 MB/72.2 MB 91%]              1,419 kB/s 5s[0m[33m93% [20 openjdk-17-jdk-headless 66.0 MB/72.2 MB 91%]              1,419 kB/s 5s[0m[33m93% [20 openjdk-17-jdk-headless 66.4 MB/72.2 MB 92%]              1,419 kB/s 5s[0m[33m94% [20 openjdk-17-jdk-headless 66.7 MB/72.2 MB 92%]              1,419 kB/s 4s[0m[33m94% [20 openjdk-17-jdk-headless 67.0 MB/72.2 MB 93%]              1,419 kB/s 4s[0m[33m94% [20 openjdk-17-jdk-headless 67.3 MB/72.2 MB 93%]              1,419 kB/s 4s[0m[33m94% [20 openjdk-17-jdk-headless 67.5 MB/72.2 MB 94%]              1,419 kB/s 4s[0m[33m94% [20 openjdk-17-jdk-headless 67.9 MB/72.2 MB 94%]              1,419 kB/s 4s[0m[33m95% [20 openjdk-17-jdk-headless 68.3 MB/72.2 MB 95%]              1,419 kB/s 3s[0m[33m95% [20 openjdk-17-jdk-headless 68.6 MB/72.2 MB 95%]              1,419 kB/s 3s[0m[33m95% [20 openjdk-17-jdk-headless 68.9 MB/72.2 MB 95%]              1,419 kB/s 3s[0m[33m95% [20 openjdk-17-jdk-headless 69.2 MB/72.2 MB 96%]                629 kB/s 7s[0m[33m95% [20 openjdk-17-jdk-headless 69.6 MB/72.2 MB 96%]                629 kB/s 6s[0m[33m96% [20 openjdk-17-jdk-headless 70.1 MB/72.2 MB 97%]                629 kB/s 5s[0m[33m96% [20 openjdk-17-jdk-headless 70.4 MB/72.2 MB 97%]                629 kB/s 5s[0m[33m96% [20 openjdk-17-jdk-headless 70.6 MB/72.2 MB 98%]                629 kB/s 4s[0m[33m96% [20 openjdk-17-jdk-headless 70.9 MB/72.2 MB 98%]                629 kB/s 4s[0m[33m96% [20 openjdk-17-jdk-headless 71.2 MB/72.2 MB 99%]                629 kB/s 4s[0m[33m97% [20 openjdk-17-jdk-headless 71.5 MB/72.2 MB 99%]                629 kB/s 3s[0m[33m97% [20 openjdk-17-jdk-headless 72.0 MB/72.2 MB 100%]               629 kB/s 2s[0m                                                                               Get:21 http://ru.archive.ubuntu.com/ubuntu stonking-updates/universe amd64 openjdk-17-jdk amd64 17.0.21.0.3+1-1~26.10.1 [1,525 kB]
+[33m98% [21 openjdk-17-jdk 3,416 B/1,525 kB 0%]                         629 kB/s 2s[0m[33m98% [21 openjdk-17-jdk 282 kB/1,525 kB 18%]                         629 kB/s 1s[0m[33m98% [21 openjdk-17-jdk 378 kB/1,525 kB 25%]                         629 kB/s 1s[0m[33m98% [21 openjdk-17-jdk 461 kB/1,525 kB 30%]                         629 kB/s 1s[0m[33m99% [21 openjdk-17-jdk 666 kB/1,525 kB 44%]                         574 kB/s 1s[0m[33m99% [21 openjdk-17-jdk 968 kB/1,525 kB 63%]                         574 kB/s 0s[0m[33m99% [21 openjdk-17-jdk 1,228 kB/1,525 kB 81%]                       574 kB/s 0s[0m[33m100% [Working]                                                      574 kB/s 0s[0m                                                                               Fetched 127 MB in 3min 15s (651 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package ca-certificates-java.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 195853 files and directories currently installed.)
+Preparing to unpack …/00-ca-certificates-java_20260311ubuntu0.26.10.2_all.deb…
+7[24;0f[42m[30mProgress: [  0%][49m[39m [                                                          ] 87[24;0f[42m[30mProgress: [  1%][49m[39m [▋                                                         ] 8Unpacking ca-certificates-java (20260311ubuntu0.26.10.2)…
+7[24;0f[42m[30mProgress: [  2%][49m[39m [█▎                                                        ] 8Selecting previously unselected package curl.
+Preparing to unpack …/01-curl_8.20.0-2ubuntu11.1_amd64.deb…
+7[24;0f[42m[30mProgress: [  4%][49m[39m [██                                                        ] 8Unpacking curl (8.20.0-2ubuntu11.1)…
+7[24;0f[42m[30mProgress: [  5%][49m[39m [██▋                                                       ] 8Selecting previously unselected package fonts-dejavu-extra.
+Preparing to unpack …/02-fonts-dejavu-extra_2.37-9_all.deb…
+7[24;0f[42m[30mProgress: [  6%][49m[39m [███▍                                                      ] 8Unpacking fonts-dejavu-extra (2.37-9)…
+7[24;0f[42m[30mProgress: [  7%][49m[39m [████                                                      ] 8Selecting previously unselected package java-common.
+Preparing to unpack …/03-java-common_0.77_all.deb…
+7[24;0f[42m[30mProgress: [  8%][49m[39m [████▊                                                     ] 8Unpacking java-common (0.77)…
+7[24;0f[42m[30mProgress: [  9%][49m[39m [█████▍                                                    ] 8Selecting previously unselected package libatk-wrapper-java.
+Preparing to unpack …/04-libatk-wrapper-java_0.44.0-1_all.deb…
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [██████▏                                                   ] 8Unpacking libatk-wrapper-java (0.44.0-1)…
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [██████▊                                                   ] 8Selecting previously unselected package libatk-wrapper-java-jni:amd64.
+Preparing to unpack …/05-libatk-wrapper-java-jni_0.44.0-1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 13%][49m[39m [███████▌                                                  ] 8Unpacking libatk-wrapper-java-jni:amd64 (0.44.0-1)…
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [████████▏                                                 ] 8Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack …/06-xorg-sgml-doctools_1%3a1.12.1-1_all.deb…
+7[24;0f[42m[30mProgress: [ 15%][49m[39m [████████▊                                                 ] 8Unpacking xorg-sgml-doctools (1:1.12.1-1)…
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [█████████▌                                                ] 8Selecting previously unselected package x11proto-dev.
+Preparing to unpack …/07-x11proto-dev_2025.1-1_all.deb…
+7[24;0f[42m[30mProgress: [ 18%][49m[39m [██████████▏                                               ] 8Unpacking x11proto-dev (2025.1-1)…
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [██████████▉                                               ] 8Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack …/08-libice-dev_2%3a1.1.1-1build1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [███████████▌                                              ] 8Unpacking libice-dev:amd64 (2:1.1.1-1build1)…
+7[24;0f[42m[30mProgress: [ 21%][49m[39m [████████████▎                                             ] 8Selecting previously unselected package uuid-dev:amd64.
+Preparing to unpack …/09-uuid-dev_2.42.2-1ubuntu2_amd64.deb…
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [████████████▉                                             ] 8Unpacking uuid-dev:amd64 (2.42.2-1ubuntu2)…
+7[24;0f[42m[30mProgress: [ 24%][49m[39m [█████████████▋                                            ] 8Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack …/10-libsm-dev_2%3a1.2.6-1build1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 25%][49m[39m [██████████████▎                                           ] 8Unpacking libsm-dev:amd64 (2:1.2.6-1build1)…
+7[24;0f[42m[30mProgress: [ 26%][49m[39m [███████████████                                           ] 8Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack …/11-libxau-dev_1%3a1.0.11-1build2_amd64.deb…
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [███████████████▋                                          ] 8Unpacking libxau-dev:amd64 (1:1.0.11-1build2)…
+7[24;0f[42m[30mProgress: [ 28%][49m[39m [████████████████▍                                         ] 8Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack …/12-libxdmcp-dev_1%3a1.1.5-2_amd64.deb…
+7[24;0f[42m[30mProgress: [ 29%][49m[39m [█████████████████                                         ] 8Unpacking libxdmcp-dev:amd64 (1:1.1.5-2)…
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [█████████████████▋                                        ] 8Selecting previously unselected package xtrans-dev.
+Preparing to unpack …/13-xtrans-dev_1.6.0-1build1_all.deb…
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [██████████████████▍                                       ] 8Unpacking xtrans-dev (1.6.0-1build1)…
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [███████████████████                                       ] 8Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack …/14-libxcb1-dev_1.17.0-2ubuntu1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 34%][49m[39m [███████████████████▊                                      ] 8Unpacking libxcb1-dev:amd64 (1.17.0-2ubuntu1)…
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [████████████████████▍                                     ] 8Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack …/15-libx11-dev_2%3a1.8.13-1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 36%][49m[39m [█████████████████████▏                                    ] 8Unpacking libx11-dev:amd64 (2:1.8.13-1)…
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [█████████████████████▊                                    ] 8Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack …/16-libxt-dev_1%3a1.2.1-1.3build1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [██████████████████████▌                                   ] 8Unpacking libxt-dev:amd64 (1:1.2.1-1.3build1)…
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [███████████████████████▏                                  ] 8Selecting previously unselected package openjdk-17-jre-headless:amd64.
+Preparing to unpack …/17-openjdk-17-jre-headless_17.0.21.0.3+1-1~26.10.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [███████████████████████▉                                  ] 8Unpacking openjdk-17-jre-headless:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 42%][49m[39m [████████████████████████▌                                 ] 8Selecting previously unselected package openjdk-17-jre:amd64.
+Preparing to unpack …/18-openjdk-17-jre_17.0.21.0.3+1-1~26.10.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [█████████████████████████▏                                ] 8Unpacking openjdk-17-jre:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [█████████████████████████▉                                ] 8Selecting previously unselected package openjdk-17-jdk-headless:amd64.
+Preparing to unpack …/19-openjdk-17-jdk-headless_17.0.21.0.3+1-1~26.10.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [██████████████████████████▌                               ] 8Unpacking openjdk-17-jdk-headless:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [███████████████████████████▎                              ] 8Selecting previously unselected package openjdk-17-jdk:amd64.
+Preparing to unpack …/20-openjdk-17-jdk_17.0.21.0.3+1-1~26.10.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 48%][49m[39m [███████████████████████████▉                              ] 8Unpacking openjdk-17-jdk:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [████████████████████████████▋                             ] 8Setting up java-common (0.77)…
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [█████████████████████████████▎                            ] 87[24;0f[42m[30mProgress: [ 52%][49m[39m [██████████████████████████████                            ] 8Setting up xtrans-dev (1.6.0-1build1)…
+7[24;0f[42m[30mProgress: [ 53%][49m[39m [██████████████████████████████▋                           ] 87[24;0f[42m[30mProgress: [ 54%][49m[39m [███████████████████████████████▍                          ] 8Setting up uuid-dev:amd64 (2.42.2-1ubuntu2)…
+7[24;0f[42m[30mProgress: [ 55%][49m[39m [████████████████████████████████                          ] 8Setting up fonts-dejavu-extra (2.37-9)…
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [████████████████████████████████▊                         ] 87[24;0f[42m[30mProgress: [ 58%][49m[39m [█████████████████████████████████▍                        ] 87[24;0f[42m[30mProgress: [ 59%][49m[39m [██████████████████████████████████                        ] 8Setting up xorg-sgml-doctools (1:1.12.1-1)…
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [██████████████████████████████████▊                       ] 8Setting up curl (8.20.0-2ubuntu11.1)…
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [███████████████████████████████████▍                      ] 87[24;0f[42m[30mProgress: [ 62%][49m[39m [████████████████████████████████████▏                     ] 8Setting up libatk-wrapper-java (0.44.0-1)…
+7[24;0f[42m[30mProgress: [ 64%][49m[39m [████████████████████████████████████▊                     ] 87[24;0f[42m[30mProgress: [ 65%][49m[39m [█████████████████████████████████████▌                    ] 8Setting up ca-certificates-java (20260311ubuntu0.26.10.2)…
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [██████████████████████████████████████▏                   ] 8No JRE found. Skipping Java certificates setup.
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [██████████████████████████████████████▉                   ] 8Setting up libatk-wrapper-java-jni:amd64 (0.44.0-1)…
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [███████████████████████████████████████▌                  ] 87[24;0f[42m[30mProgress: [ 69%][49m[39m [████████████████████████████████████████▎                 ] 8Setting up openjdk-17-jre-headless:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 71%][49m[39m [████████████████████████████████████████▉                 ] 8update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage to provide /usr/bin/jpackage (jpackage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [█████████████████████████████████████████▌                ] 8Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for sgml-base (1.31+nmu1build1)…
+Setting up x11proto-dev (2025.1-1)…
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [██████████████████████████████████████████                ] 87[24;0f[42m[30mProgress: [ 74%][49m[39m [██████████████████████████████████████████▋               ] 8Processing triggers for fontconfig (2.17.1-5ubuntu1)…
+Processing triggers for desktop-file-utils (0.28-1build1)…
+Setting up libxau-dev:amd64 (1:1.0.11-1build2)…
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [███████████████████████████████████████████▎              ] 87[24;0f[42m[30mProgress: [ 76%][49m[39m [████████████████████████████████████████████              ] 8Processing triggers for hicolor-icon-theme (0.18-2build1)…
+Setting up libice-dev:amd64 (2:1.1.1-1build1)…
+7[24;0f[42m[30mProgress: [ 77%][49m[39m [████████████████████████████████████████████▋             ] 87[24;0f[42m[30mProgress: [ 78%][49m[39m [█████████████████████████████████████████████▎            ] 8Processing triggers for gnome-menus (3.38.1-1ubuntu1)…
+Setting up libsm-dev:amd64 (2:1.2.6-1build1)…
+7[24;0f[42m[30mProgress: [ 79%][49m[39m [██████████████████████████████████████████████            ] 87[24;0f[42m[30mProgress: [ 80%][49m[39m [██████████████████████████████████████████████▋           ] 8Setting up libxdmcp-dev:amd64 (1:1.1.5-2)…
+7[24;0f[42m[30mProgress: [ 82%][49m[39m [███████████████████████████████████████████████▎          ] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [████████████████████████████████████████████████          ] 8Setting up libxcb1-dev:amd64 (1.17.0-2ubuntu1)…
+7[24;0f[42m[30mProgress: [ 84%][49m[39m [████████████████████████████████████████████████▋         ] 87[24;0f[42m[30mProgress: [ 85%][49m[39m [█████████████████████████████████████████████████▎        ] 8Setting up libx11-dev:amd64 (2:1.8.13-1)…
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [██████████████████████████████████████████████████        ] 87[24;0f[42m[30mProgress: [ 87%][49m[39m [██████████████████████████████████████████████████▋       ] 8Setting up libxt-dev:amd64 (1:1.2.1-1.3build1)…
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [███████████████████████████████████████████████████▎      ] 87[24;0f[42m[30mProgress: [ 90%][49m[39m [████████████████████████████████████████████████████      ] 8Processing triggers for ca-certificates-java (20260311ubuntu0.26.10.2)…
+7[24;0f[42m[30mProgress: [ 91%][49m[39m [████████████████████████████████████████████████████▋     ] 8Adding debian:ACCVRAIZ1.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+Adding debian:ANF_Secure_Server_Root_CA.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:Atos_TrustedRoot_Root_CA_ECC_TLS_2021.pem
+Adding debian:Atos_TrustedRoot_Root_CA_RSA_TLS_2021.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:BJCA_Global_Root_CA1.pem
+Adding debian:BJCA_Global_Root_CA2.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:Certainly_Root_E1.pem
+Adding debian:Certainly_Root_R1.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:Certum_EC-384_CA.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:Certum_Trusted_Root_CA.pem
+Adding debian:D-TRUST_BR_Root_CA_1_2020.pem
+Adding debian:D-TRUST_BR_Root_CA_2_2023.pem
+Adding debian:D-TRUST_EV_Root_CA_1_2020.pem
+Adding debian:D-TRUST_EV_Root_CA_2_2023.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:DigiCert_TLS_ECC_P384_Root_G5.pem
+Adding debian:DigiCert_TLS_RSA4096_Root_G5.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:GlobalSign_Root_E46.pem
+Adding debian:GlobalSign_Root_R46.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:HARICA_TLS_ECC_Root_CA_2021.pem
+Adding debian:HARICA_TLS_RSA_Root_CA_2021.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:HiPKI_Root_CA_-_G1.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:ISRG_Root_X2.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:Izenpe.com.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:OISTE_Server_Root_ECC_G1.pem
+Adding debian:OISTE_Server_Root_RSA_G1.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:SECOM_TLS_ECC_Root_CA_2024.pem
+Adding debian:SECOM_TLS_RSA_Root_CA_2024.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:SSL.com_TLS_ECC_Root_CA_2022.pem
+Adding debian:SSL.com_TLS_RSA_Root_CA_2022.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_E46.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_R46.pem
+Adding debian:SecureSign_Root_CA14.pem
+Adding debian:SecureSign_Root_CA15.pem
+Adding debian:Security_Communication_ECC_RootCA1.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:SwissSign_RSA_TLS_Root_CA_2022_-_1.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:TWCA_CYBER_Root_CA.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:Telekom_Security_TLS_ECC_Root_2020.pem
+Adding debian:Telekom_Security_TLS_RSA_Root_2023.pem
+Adding debian:Telia_EC_TLS_Root_CA_v3.pem
+Adding debian:Telia_RSA_TLS_Root_CA_v3.pem
+Adding debian:Telia_Root_CA_v2.pem
+Adding debian:TrustAsia_Global_Root_CA_G3.pem
+Adding debian:TrustAsia_Global_Root_CA_G4.pem
+Adding debian:TrustAsia_TLS_ECC_Root_CA.pem
+Adding debian:TrustAsia_TLS_RSA_Root_CA.pem
+Adding debian:TunTrust_Root_CA.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:e-Szigno_TLS_Root_CA_2023.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:vTrus_ECC_Root_CA.pem
+Adding debian:vTrus_Root_CA.pem
+done.
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [█████████████████████████████████████████████████████▎    ] 8Setting up openjdk-17-jre:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 93%][49m[39m [█████████████████████████████████████████████████████▉    ] 87[24;0f[42m[30mProgress: [ 94%][49m[39m [██████████████████████████████████████████████████████▋   ] 8Setting up openjdk-17-jdk-headless:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 95%][49m[39m [███████████████████████████████████████████████████████▎  ] 8update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+7[24;0f[42m[30mProgress: [ 97%][49m[39m [████████████████████████████████████████████████████████  ] 8Setting up openjdk-17-jdk:amd64 (17.0.21.0.3+1-1~26.10.1)…
+7[24;0f[42m[30mProgress: [ 98%][49m[39m [████████████████████████████████████████████████████████▋ ] 8update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+7[24;0f[42m[30mProgress: [ 99%][49m[39m [█████████████████████████████████████████████████████████▎] 8
+7[0;24r8[1A[J]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ uname -m
+[?2004l]133;C\]666;vte.shell.preexec!\x86_64
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcurl -fL --retry 3 \[27m
+[7m  "https://api.adoptium.net/v3/binary/latest/21/ga/linux/${ARCH}/jdk/hotspot/nor[27m[7mm[27m[7mal/eclipse" \ [27m
+[7m  -o /tmp/temurin-jdk21.tar.gz[27m[A[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ curl -fL --retry 3 \
+  "https://api.adoptium.net/v3/binary/latest/21/ga/linux/${ARCH}/jdk/hotspot/normal/eclipse" \
+  -o /tmp/temurin-jdk21.tar.gz
+[?2004l]133;C\]666;vte.shell.preexec!\  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (22) The requested URL returned error: 404
+]666;vte.shell.postexec=22\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mARCH=x64[27mARCH=x64
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcurl -fL --retry 3 \[27m
+[7m  "https://api.adoptium.net/v3/binary/latest/21/ga/linux/${ARCH}/jdk/hotspot/nor[27m[7mm[27m[7mal/eclipse" \ [27m
+[7m  -o /tmp/temurin-jdk21.tar.gz[27m[A[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ curl -fL --retry 3 \
+  "https://api.adoptium.net/v3/binary/latest/21/ga/linux/${ARCH}/jdk/hotspot/normal/eclipse" \
+  -o /tmp/temurin-jdk21.tar.gz
+[?2004l]133;C\]666;vte.shell.preexec!\  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0           00:01              0  0      0   0      0   0      0      0      0           00:01              0
+  0      0   0      0   0      0      0      0           00:01              0  0 198.2M   0 376.7k   0      0 151.3k      0   22:21   00:02   22:19 375.2k  0 198.2M   0 914.9k   0      0 262.1k      0   12:54   00:03   12:51 456.3k  0 198.2M   0  1.65M   0      0 378.1k      0   08:56   00:04   08:52 564.9k  1 198.2M   1  2.45M   0      0 458.6k      0   07:22   00:05   07:17 628.6k  1 198.2M   1  3.63M   0      0 574.2k      0   05:53   00:06   05:47 744.5k  2 198.2M   2  4.98M   0      0 680.9k      0   04:58   00:07   04:51 944.2k  3 198.2M   3  6.18M   0      0 745.3k      0   04:32   00:08   04:24  1.05M  3 198.2M   3  7.59M   0      0 818.2k      0   04:08   00:09   03:59  1.18M  4 198.2M   4  8.90M   0      0 868.1k      0   03:53   00:10   03:43  1.28M  5 198.2M   5 10.53M   0      0 937.3k      0   03:36   00:11   03:25  1.37M  5 198.2M   5 11.88M   0      0 972.7k      0   03:28   00:12   03:16  1.37M  6 198.2M   6 13.37M   0      0  0.98M      0   03:20   00:13   03:07  1.43M  7 198.2M   7 15.00M   0      0  1.03M      0   03:11   00:14   02:57  1.47M  8 198.2M   8 16.76M   0      0  1.08M      0   03:03   00:15   02:48  1.56M  9 198.2M   9 18.34M   0      0  1.10M      0   02:58   00:16   02:42  1.55M 10 198.2M  10 20.07M   0      0  1.14M      0   02:53   00:17   02:36  1.63M 11 198.2M  11 21.81M   0      0  1.17M      0   02:48   00:18   02:30  1.68M 11 198.2M  11 23.43M   0      0  1.19M      0   02:45   00:19   02:26  1.68M 12 198.2M  12 24.60M   0      0  1.19M      0   02:45   00:20   02:25  1.56M 13 198.2M  13 26.00M   0      0  1.20M      0   02:44   00:21   02:23  1.52M 13 198.2M  13 27.65M   0      0  1.22M      0   02:41   00:22   02:19  1.51M 14 198.2M  14 29.45M   0      0  1.25M      0   02:38   00:23   02:15  1.52M 15 198.2M  15 30.98M   0      0  1.26M      0   02:37   00:24   02:13  1.50M 16 198.2M  16 32.79M   0      0  1.28M      0   02:34   00:25   02:09  1.63M 17 198.2M  17 34.68M   0      0  1.30M      0   02:31   00:26   02:05  1.73M 18 198.2M  18 36.73M   0      0  1.33M      0   02:28   00:27   02:01  1.81M 19 198.2M  19 38.87M   0      0  1.36M      0   02:25   00:28   01:57  1.87M 20 198.2M  20 41.31M   0      0  1.39M      0   02:21   00:29   01:52  2.06M 22 198.2M  22 44.00M   0      0  1.43M      0   02:17   00:30   01:47  2.23M 23 198.2M  23 46.95M   0      0  1.48M      0   02:13   00:31   01:42  2.45M 24 198.2M  24 49.25M   0      0  1.51M      0   02:10   00:32   01:38  2.50M 26 198.2M  26 51.86M   0      0  1.54M      0   02:08   00:33   01:35  2.59M 27 198.2M  27 54.75M   0      0  1.58M      0   02:05   00:34   01:31  2.68M 29 198.2M  29 57.55M   0      0  1.61M      0   02:02   00:35   01:27  2.70M 30 198.2M  30 59.93M   0      0  1.63M      0   02:00   00:36   01:24  2.59M 31 198.2M  31 62.72M   0      0  1.66M      0   01:58   00:37   01:21  2.69M 33 198.2M  33 65.65M   0      0  1.70M      0   01:56   00:38   01:18  2.75M 34 198.2M  34 68.65M   0      0  1.73M      0   01:54   00:39   01:15  2.77M 36 198.2M  36 71.54M   0      0  1.76M      0   01:52   00:40   01:12  2.79M 37 198.2M  37 74.72M   0      0  1.79M      0   01:50   00:41   01:09  2.95M 39 198.2M  39 78.29M   0      0  1.83M      0   01:47   00:42   01:05  3.11M 41 198.2M  41 82.07M   0      0  1.88M      0   01:45   00:43   01:02  3.27M 42 198.2M  42 84.88M   0      0  1.90M      0   01:44   00:44   01:00  3.22M 44 198.2M  44 87.54M   0      0  1.91M      0   01:43   00:45   00:58  3.18M 45 198.2M  45 90.10M   0      0  1.93M      0   01:42   00:46   00:56  3.05M 46 198.2M  46 92.90M   0      0  1.95M      0   01:41   00:47   00:54  2.90M 47 198.2M  47 94.63M   0      0  1.94M      0   01:41   00:48   00:53  2.50M 48 198.2M  48 97.10M   0      0  1.95M      0   01:41   00:49   00:52  2.44M 50 198.2M  50 99.82M   0      0  1.97M      0   01:40   00:50   00:50  2.45M 51 198.2M  51 102.7M   0      0  1.99M      0   01:39   00:51   00:48  2.53M 53 198.2M  53 105.7M   0      0  2.01M      0   01:38   00:52   00:46  2.57M 54 198.2M  54 108.7M   0      0  2.02M      0   01:37   00:53   00:44  2.82M 56 198.2M  56 112.0M   0      0  2.05M      0   01:36   00:54   00:42  2.99M 58 198.2M  58 115.6M   0      0  2.07M      0   01:35   00:55   00:40  3.14M 59 198.2M  59 118.4M   0      0  2.09M      0   01:34   00:56   00:38  3.11M 61 198.2M  61 121.6M   0      0  2.11M      0   01:33   00:57   00:36  3.16M 63 198.2M  63 125.1M   0      0  2.13M      0   01:32   00:58   00:34  3.25M 64 198.2M  64 128.7M   0      0  2.15M      0   01:31   00:59   00:32  3.32M 66 198.2M  66 132.3M   0      0  2.18M      0   01:30   01:00   00:30  3.33M 68 198.2M  68 135.7M   0      0  2.20M      0   01:29   01:01   00:28  3.47M 70 198.2M  70 139.7M   0      0  2.23M      0   01:28   01:02   00:26  3.63M 72 198.2M  72 143.9M   0      0  2.26M      0   01:27   01:03   00:24  3.76M 74 198.2M  74 146.8M   0      0  2.27M      0   01:27   01:04   00:23  3.62M 75 198.2M  75 149.4M   0      0  2.27M      0   01:27   01:05   00:22  3.41M 76 198.2M  76 152.2M   0      0  2.28M      0   01:26   01:06   00:20  3.28M 78 198.2M  78 155.1M   0      0  2.29M      0   01:26   01:07   00:19  3.07M 79 198.2M  79 158.2M   0      0  2.30M      0   01:25   01:08   00:17  2.85M 81 198.2M  81 160.7M   0      0  2.30M      0   01:25   01:09   00:16  2.76M 82 198.2M  82 163.6M   0      0  2.31M      0   01:25   01:10   00:15  2.83M 84 198.2M  84 166.8M   0      0  2.32M      0   01:25   01:11   00:14  2.92M 85 198.2M  85 170.1M   0      0  2.34M      0   01:24   01:12   00:12  2.98M 87 198.2M  87 173.4M   0      0  2.35M      0   01:24   01:13   00:11  3.04M 89 198.2M  89 176.9M   0      0  2.37M      0   01:23   01:14   00:09  3.24M 91 198.2M  91 180.5M   0      0  2.38M      0   01:23   01:15   00:08  3.36M 92 198.2M  92 183.5M   0      0  2.39M      0   01:22   01:16   00:06  3.33M 94 198.2M  94 186.9M   0      0  2.40M      0   01:22   01:17   00:05  3.36M 96 198.2M  96 190.7M   0      0  2.42M      0   01:21   01:18   00:03  3.44M 97 198.2M  97 194.2M   0      0  2.43M      0   01:21   01:19   00:02  3.44M 99 198.2M  99 197.2M   0      0  2.44M      0   01:21   01:20   00:01  3.33M100 198.2M 100 198.2M   0      0  2.44M      0   01:20   01:20          3.33M100 198.2M 100 198.2M   0      0  2.44M      0   01:20   01:20          3.33M100 198.2M 100 198.2M   0      0  2.44M      0   01:20   01:20          3.33M
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mls -lh /tmp/temurin-jdk21.tar.gz[27m
+[7mtar -tzf /tmp/temurin-jdk21.tar.gz | head[27m[Als -lh /tmp/temurin-jdk21.tar.gz
+tar -tzf /tmp/temurin-jdk21.tar.gz | head
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 stepa stepa 199M Nov 13 11:12 [0m[01;31m/tmp/temurin-jdk21.tar.gz[0m
+]133;C\]666;vte.shell.preexec!\jdk-21.0.13+9/
+jdk-21.0.13+9/lib/
+jdk-21.0.13+9/lib/liblcms.so
+jdk-21.0.13+9/lib/psfontj2d.properties
+jdk-21.0.13+9/lib/libnio.so
+jdk-21.0.13+9/lib/libjavajpeg.so
+jdk-21.0.13+9/lib/tzdb.dat
+jdk-21.0.13+9/lib/jfr/
+jdk-21.0.13+9/lib/jfr/default.jfc
+jdk-21.0.13+9/lib/jfr/profile.jfc
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo mkdir -p /opt/temurin-21[27m
+[7msudo tar -xzf /tmp/temurin-jdk21.tar.gz \[27m
+[7m  -C /opt/temurin-21 --strip-components=1[27m[A[Asudo mkdir -p /opt/temurin-21
+sudo tar -xzf /tmp/temurin-jdk21.tar.gz \
+  -C /opt/temurin-21 --strip-components=1
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7m/opt/temurin-21/bin/java -version[27m
+[7m/opt/temurin-21/bin/javac -version[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ /opt/temurin-21/bin/java -version
+/opt/temurin-21/bin/javac -version
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)
+]133;C\]666;vte.shell.preexec!\javac 21.0.13
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --install /usr/bin[27m[7m/[27m[7mjava java /opt/temurin-21/bin/java 2100[27m[Asudo update-alternatives --install /usr/bin/java java /opt/temurin-21/bin/java 2100
+[?2004l]133;C\]666;vte.shell.preexec!\update-alternatives: using /opt/temurin-21/bin/java to provide /usr/bin/java (java) in auto mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --install /usr/bin[27m[7m/[27m[7mjavac javac /opt/temurin-21/bin/javac 2100[27m[Asudo update-alternatives --install /usr/bin/javac javac /opt/temurin-21/bin/javac 2100
+[?2004l]133;C\]666;vte.shell.preexec!\update-alternatives: using /opt/temurin-21/bin/javac to provide /usr/bin/javac (javac) in auto mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mupdate-alternatives --list java[27m
+[7mupdate-alternatives --list javac[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ update-alternatives --list java
+update-alternatives --list javac
+[?2004l]133;C\]666;vte.shell.preexec!\/opt/temurin-21/bin/java
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java
+]133;C\]666;vte.shell.preexec!\/opt/temurin-21/bin/javac
+/usr/lib/jvm/java-17-openjdk-amd64/bin/javac
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mscript -a -f lesson4/java-log.txt[27mscript -a -f lesson4/java-log.txt
+[?2004l]133;C\]666;vte.shell.preexec!\Script started, output log file is 'lesson4/java-log.txt'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config java[27msudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   [0K
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+* 0            /opt/temurin-21/bin/java                      2100      auto mode
+  1            /opt/temurin-21/bin/java                      2100      manual mode
+  2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config javac[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config javac
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                          Priority   Status
+------------------------------------------------------------
+* 0            /opt/temurin-21/bin/javac                      2100      auto mode
+  1            /opt/temurin-21/bin/javac                      2100      manual mode
+  2            /usr/lib/jvm/java-17-openjdk-amd64/bin/javac   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mjava -version[27m
+[7mjavac -version[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ java -version
+javac -version
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk version "17.0.21.0.3" 2026-10-24
+OpenJDK Runtime Environment (build 17.0.21.0.3+1-1-26.10.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 17.0.21.0.3+1-1-26.10.1-Ubuntu, mixed mode, sharing)
+]133;C\]666;vte.shell.preexec!\javac 17.0.21.0.3
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config java[27msudo update-alternatives --config java
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /opt/temurin-21/bin/java                      2100      auto mode
+  1            /opt/temurin-21/bin/java                      2100      manual mode
+* 2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /opt/temurin-21/bin/java to provide /usr/bin/java (java) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo update-alternatives --config javac[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config javac
+[?2004l]133;C\]666;vte.shell.preexec!\There are 2 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                          Priority   Status
+------------------------------------------------------------
+  0            /opt/temurin-21/bin/javac                      2100      auto mode
+  1            /opt/temurin-21/bin/javac                      2100      manual mode
+* 2            /usr/lib/jvm/java-17-openjdk-amd64/bin/javac   1711      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /opt/temurin-21/bin/javac to provide /usr/bin/javac (javac) in manual mode
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mjava -version[27m
+[7mjavac -version[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ java -version
+javac -version
+[?2004l]133;C\]666;vte.shell.preexec!\openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)
+]133;C\]666;vte.shell.preexec!\javac 21.0.13
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+Script done.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mgit branch --show-current[27mgit branch --show-current
+[?2004l]133;C\]666;vte.shell.preexec!\lesson4
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mscript -a -f lesson4/nginx-log.txt[27mscript -a -f lesson4/nginx-log.txt
+[?2004l]133;C\]666;vte.shell.preexec!\Script started, output log file is 'lesson4/nginx-log.txt'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sud o[K[Ko apt update
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   [0K
+[33m0% [Working][0m            Hit:1 http://security.ubuntu.com/ubuntu stonking-security InRelease
+[33m0% [Connecting to ru.archive.ubuntu.com (213.180.204.183)][0m[33m                                                          0% [Waiting for headers][0m                        Hit:2 http://ru.archive.ubuntu.com/ubuntu stonking InRelease
+[33m                        0% [Working][0m[33m0% [Waiting for headers][0m                        Hit:3 http://ru.archive.ubuntu.com/ubuntu stonking-updates InRelease
+[33m                        0% [Working][0m[33m0% [Waiting for headers][0m                        Hit:4 http://ru.archive.ubuntu.com/ubuntu stonking-backports InRelease
+[33m                        0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 66%Reading package lists... 66%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo apt install -y nginx curl[27msudo apt install -y nginx curl
+[?2004l]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                curl is already the newest version (8.20.0-2ubuntu11.1).
+Solving dependencies... 0%Solving dependencies... 10%                            Installing:
+[32m  nginx
+[0m
+Installing dependencies:
+[32m  nginx-common
+[0m
+Suggested packages:
+  fcgiwrap  nginx-doc
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 13
+  Download size: 678 kB
+  Space needed: 1,917 kB / 8,243 MB available
+
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 nginx-common all 1.30.4-7ubuntu1.1 [38.9 kB]
+[33m0% [1 nginx-common 0 B/38.9 kB 0%][0m[33m                                  15% [Working][0m             Get:2 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 nginx amd64 1.30.4-7ubuntu1.1 [639 kB]
+[33m17% [2 nginx 20.4 kB/639 kB 3%][0m[33m40% [2 nginx 214 kB/639 kB 34%][0m[33m68% [2 nginx 449 kB/639 kB 70%][0m[33m87% [2 nginx 611 kB/639 kB 96%][0m[33m                               100% [Working][0m              Fetched 678 kB in 2s (321 kB/s)
+Preconfiguring packages ...
+
+7[0;23r8[1ASelecting previously unselected package nginx-common.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 197031 files and directories currently installed.)
+Preparing to unpack …/nginx-common_1.30.4-7ubuntu1.1_all.deb…
+7[24;0f[42m[30mProgress: [  0%][49m[39m [                                                          ] 87[24;0f[42m[30mProgress: [ 11%][49m[39m [██████▍                                                   ] 8Unpacking nginx-common (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [████████████▉                                             ] 8Selecting previously unselected package nginx.
+Preparing to unpack …/nginx_1.30.4-7ubuntu1.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [███████████████████▎                                      ] 8Unpacking nginx (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [█████████████████████████▊                                ] 8Setting up nginx-common (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [████████████████████████████████▏                         ] 8Created symlink '/etc/systemd/system/multi-user.target.wants/nginx.service' → '/usr/lib/systemd/system/nginx.service'.
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [██████████████████████████████████████▋                   ] 8Setting up nginx (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [█████████████████████████████████████████████             ] 87[24;0f[42m[30mProgress: [ 89%][49m[39m [███████████████████████████████████████████████████▌      ] 8Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for ufw (0.36.2-10)…
+
+7[0;24r8[1A[J]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ngu[Kinx -v\[K
+[?2004l]133;C\]666;vte.shell.preexec!\nginx version: nginx/1.30.4 (Ubuntu)
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sudo nginx -t
+[?2004l]133;C\]666;vte.shell.preexec!\nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl status nginx.service[27msystemctl status nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://stepa-lesson4/usr/lib/systemd/system/nginx.service\/usr/lib/systemd/system/nginx.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32men[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Fri 2026-11-13 11:19:50 MSK; 37s ago[m
+ Invocation: 10ea9fc3b0f74d72aafd43b08ead9fd9[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+    Process: 27579 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_proc[m[7m>[27m
+    Process: 27581 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; ([m[7m>[27m
+   Main PID: 27582 (nginx)[m
+      Tasks: 3[0;38:5:245m (limit: 3963)[0m[m
+     Memory: 3M (peak: 3.5M)[m
+        CPU: 20ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38:5:245m27582 "nginx: master process /usr/sbin/nginx -g daemon on; maste[m[7m>[27m
+             ├─[0;38:5:245m27583 "nginx: worker process"[0m[m
+             └─[0;38:5:245m27584 "nginx: worker process"[0m[m
+[m
+Nov 13 11:19:50 stepa-lesson4 systemd[1]: Starting nginx.service - A high perfo[m[7m>[27m
+Nov 13 11:19:50 stepa-lesson4 systemd[1]: Started nginx.service - A high perfor[m[7m>[27m
+[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemctl disable --now nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl disable --now nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\Removed '/etc/systemd/system/multi-user.target.wants/nginx.service'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active nginx.service[27msystemctl is-active nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\inactive
+]666;vte.shell.postexec=3\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled nginx.service[27msystemctl is-enabled nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\disabled
+]666;vte.shell.postexec=1\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcat > lesson4/lesson4-nginx.service <<'EOF'[27m 
+[7m[Unit][27m
+[7mDescription=Lesson4 custom Nginx service[27m
+[7mAfter=network.target[27m
+[7mConflicts=nginx.service[27m
+
+[7m[Service][27m
+[7mType=forking[27m
+[7mPIDFile=/run/nginx.pid[27m
+[7mExecStartPre=/usr/sbin/nginx -t[27m
+[7mExecStart=/usr/sbin/nginx[27m
+[7mExecReload=/usr/sbin/nginx -s reload[27m
+[7mExecStop=/bin/kill -s QUIT $MAINPID[27m
+[7mTimeoutStopSec=30[27m
+[7mPrivateTmp=true[27m
+
+[7m[Install][27m
+[7mWantedBy=multi-user.target[27m
+[7mEOF[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ cat > lesson4/lesson4-nginx.service <<'EOF' 
+[Unit]
+Description=Lesson4 custom Nginx service
+After=network.target
+Conflicts=nginx.service
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/bin/kill -s QUIT $MAINPID
+TimeoutStopSec=30
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcat lesson4/lesson4-nginx.service[27mcat lesson4/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[Unit]
+Description=Lesson4 custom Nginx service
+After=network.target
+Conflicts=nginx.service
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/bin/kill -s QUIT $MAINPID
+TimeoutStopSec=30
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo install -m 644 lesson4/lesson4-nginx.s[27m[7me[27m[7mrvice \ [27m
+[7m  /etc/systemd/system/lesson4-nginx.service[27m[A[Asudo install -m 644 lesson4/lesson4-nginx.service \
+  /etc/systemd/system/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemd-analyze verify /etc/systemd/sy[27m[7ms[27m[7mtem/lesson4-nginx.service[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sudo systemd-analyze verify /etc/systemd/system/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemctl daemon-reload[27m
+[7msudo systemctl enable --now lesson4-nginx.service[27m[Asudo systemctl daemon-reload
+sudo systemctl enable --now lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\Created symlink '/etc/systemd/system/multi-user.target.wants/lesson4-nginx.service' → '/etc/systemd/system/lesson4-nginx.service'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl status lesson4-nginx.service[27msystemctl status lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m lesson4-nginx.service - Lesson4 custom Nginx service[m
+     Loaded: loaded (]8;;file://stepa-lesson4/etc/systemd/system/lesson4-nginx.service\/etc/systemd/system/lesson4-nginx.service]8;;\; [0;1;32menabled[0m; preset[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Fri 2026-11-13 11:22:51 MSK; 16s ago[m
+ Invocation: e5e4dee653404898b9da535a35a361db[m
+    Process: 28148 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCE[m[7m>[27m
+    Process: 28150 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)[m
+   Main PID: 28151 (nginx)[m
+      Tasks: 3[0;38:5:245m (limit: 3963)[0m[m
+     Memory: 3M (peak: 3.4M)[m
+        CPU: 28ms[m
+     CGroup: /system.slice/lesson4-nginx.service[m
+             ├─[0;38:5:245m28151 "nginx: master process /usr/sbin/nginx"[0m[m
+             ├─[0;38:5:245m28152 "nginx: worker process"[0m[m
+             └─[0;38:5:245m28153 "nginx: worker process"[0m[m
+[m
+Nov 13 11:22:51 stepa-lesson4 systemd[1]: Starting lesson4-nginx.service - Less[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 nginx[28148]: nginx: the configuration file /etc/[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 nginx[28148]: nginx: configuration file /etc/ngin[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 systemd[1]: Started lesson4-nginx.service - Lesso[m[7m>[27m
+[7mlines 1-19/19 (END)[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active lesson4-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl is-active lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\active
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled lesson4-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl is-enabled lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\enabled
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcurl -I http://127.0.0.1[27mcurl -I http://127.0.0.1
+[?2004l]133;C\]666;vte.shell.preexec!\HTTP/1.1 200 OK
+[1mServer[0m: nginx/1.30.4 (Ubuntu)
+[1mDate[0m: Fri, 13 Nov 2026 08:23:39 GMT
+[1mContent-Type[0m: text/html
+[1mContent-Length[0m: 896
+[1mLast-Modified[0m: Fri, 13 Nov 2026 08:19:50 GMT
+[1mConnection[0m: keep-alive
+[1mETag[0m: "6af6c826-380"
+[1mAccept-Ranges[0m: bytes
+
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active nginx.service[27msystemctl is-active nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\inactive
+]666;vte.shell.postexec=3\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled nginx.service[27msystemctl is-enabled nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\disabled
+]666;vte.shell.postexec=1\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+Script done.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mtail -40 lesson4/nginx-log.txt[27mtail -40 lesson4/nginx-log.txt
+[?2004l]133;C\]666;vte.shell.preexec!\ Invocation: e5e4dee653404898b9da535a35a361db[m
+    Process: 28148 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCE[m[7m>[27m
+    Process: 28150 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)[m
+   Main PID: 28151 (nginx)[m
+      Tasks: 3[0;38:5:245m (limit: 3963)[0m[m
+     Memory: 3M (peak: 3.4M)[m
+        CPU: 28ms[m
+     CGroup: /system.slice/lesson4-nginx.service[m
+             �

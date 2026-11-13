@@ -1,0 +1,180 @@
+Script started on 2026-11-13 11:19:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sud o[K[Ko apt update
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: ***   [0K
+[33m0% [Working][0m            Hit:1 http://security.ubuntu.com/ubuntu stonking-security InRelease
+[33m0% [Connecting to ru.archive.ubuntu.com (213.180.204.183)][0m[33m                                                          0% [Waiting for headers][0m                        Hit:2 http://ru.archive.ubuntu.com/ubuntu stonking InRelease
+[33m                        0% [Working][0m[33m0% [Waiting for headers][0m                        Hit:3 http://ru.archive.ubuntu.com/ubuntu stonking-updates InRelease
+[33m                        0% [Working][0m[33m0% [Waiting for headers][0m                        Hit:4 http://ru.archive.ubuntu.com/ubuntu stonking-backports InRelease
+[33m                        0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 66%Reading package lists... 66%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo apt install -y nginx curl[27msudo apt install -y nginx curl
+[?2004l]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                curl is already the newest version (8.20.0-2ubuntu11.1).
+Solving dependencies... 0%Solving dependencies... 10%                            Installing:
+[32m  nginx
+[0m
+Installing dependencies:
+[32m  nginx-common
+[0m
+Suggested packages:
+  fcgiwrap  nginx-doc
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 13
+  Download size: 678 kB
+  Space needed: 1,917 kB / 8,243 MB available
+
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 nginx-common all 1.30.4-7ubuntu1.1 [38.9 kB]
+[33m0% [1 nginx-common 0 B/38.9 kB 0%][0m[33m                                  15% [Working][0m             Get:2 http://ru.archive.ubuntu.com/ubuntu stonking-updates/main amd64 nginx amd64 1.30.4-7ubuntu1.1 [639 kB]
+[33m17% [2 nginx 20.4 kB/639 kB 3%][0m[33m40% [2 nginx 214 kB/639 kB 34%][0m[33m68% [2 nginx 449 kB/639 kB 70%][0m[33m87% [2 nginx 611 kB/639 kB 96%][0m[33m                               100% [Working][0m              Fetched 678 kB in 2s (321 kB/s)
+Preconfiguring packages ...
+
+7[0;23r8[1ASelecting previously unselected package nginx-common.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 197031 files and directories currently installed.)
+Preparing to unpack …/nginx-common_1.30.4-7ubuntu1.1_all.deb…
+7[24;0f[42m[30mProgress: [  0%][49m[39m [                                                          ] 87[24;0f[42m[30mProgress: [ 11%][49m[39m [██████▍                                                   ] 8Unpacking nginx-common (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [████████████▉                                             ] 8Selecting previously unselected package nginx.
+Preparing to unpack …/nginx_1.30.4-7ubuntu1.1_amd64.deb…
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [███████████████████▎                                      ] 8Unpacking nginx (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [█████████████████████████▊                                ] 8Setting up nginx-common (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [████████████████████████████████▏                         ] 8Created symlink '/etc/systemd/system/multi-user.target.wants/nginx.service' → '/usr/lib/systemd/system/nginx.service'.
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [██████████████████████████████████████▋                   ] 8Setting up nginx (1.30.4-7ubuntu1.1)…
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [█████████████████████████████████████████████             ] 87[24;0f[42m[30mProgress: [ 89%][49m[39m [███████████████████████████████████████████████████▌      ] 8Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for ufw (0.36.2-10)…
+
+7[0;24r8[1A[J]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ ngu[Kinx -v\[K
+[?2004l]133;C\]666;vte.shell.preexec!\nginx version: nginx/1.30.4 (Ubuntu)
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sudo nginx -t
+[?2004l]133;C\]666;vte.shell.preexec!\nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl status nginx.service[27msystemctl status nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://stepa-lesson4/usr/lib/systemd/system/nginx.service\/usr/lib/systemd/system/nginx.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32men[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Fri 2026-11-13 11:19:50 MSK; 37s ago[m
+ Invocation: 10ea9fc3b0f74d72aafd43b08ead9fd9[m
+       Docs: ]8;;man:nginx(8)\man:nginx(8)]8;;\[m]8;;\
+    Process: 27579 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_proc[m[7m>[27m
+    Process: 27581 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; ([m[7m>[27m
+   Main PID: 27582 (nginx)[m
+      Tasks: 3[0;38:5:245m (limit: 3963)[0m[m
+     Memory: 3M (peak: 3.5M)[m
+        CPU: 20ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38:5:245m27582 "nginx: master process /usr/sbin/nginx -g daemon on; maste[m[7m>[27m
+             ├─[0;38:5:245m27583 "nginx: worker process"[0m[m
+             └─[0;38:5:245m27584 "nginx: worker process"[0m[m
+[m
+Nov 13 11:19:50 stepa-lesson4 systemd[1]: Starting nginx.service - A high perfo[m[7m>[27m
+Nov 13 11:19:50 stepa-lesson4 systemd[1]: Started nginx.service - A high perfor[m[7m>[27m
+[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[K[7mlines 1-18/18 (END)[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemctl disable --now nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl disable --now nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\Removed '/etc/systemd/system/multi-user.target.wants/nginx.service'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active nginx.service[27msystemctl is-active nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\inactive
+]666;vte.shell.postexec=3\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled nginx.service[27msystemctl is-enabled nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\disabled
+]666;vte.shell.postexec=1\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcat > lesson4/lesson4-nginx.service <<'EOF'[27m 
+[7m[Unit][27m
+[7mDescription=Lesson4 custom Nginx service[27m
+[7mAfter=network.target[27m
+[7mConflicts=nginx.service[27m
+
+[7m[Service][27m
+[7mType=forking[27m
+[7mPIDFile=/run/nginx.pid[27m
+[7mExecStartPre=/usr/sbin/nginx -t[27m
+[7mExecStart=/usr/sbin/nginx[27m
+[7mExecReload=/usr/sbin/nginx -s reload[27m
+[7mExecStop=/bin/kill -s QUIT $MAINPID[27m
+[7mTimeoutStopSec=30[27m
+[7mPrivateTmp=true[27m
+
+[7m[Install][27m
+[7mWantedBy=multi-user.target[27m
+[7mEOF[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ cat > lesson4/lesson4-nginx.service <<'EOF' 
+[Unit]
+Description=Lesson4 custom Nginx service
+After=network.target
+Conflicts=nginx.service
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/bin/kill -s QUIT $MAINPID
+TimeoutStopSec=30
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcat lesson4/lesson4-nginx.service[27mcat lesson4/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[Unit]
+Description=Lesson4 custom Nginx service
+After=network.target
+Conflicts=nginx.service
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/bin/kill -s QUIT $MAINPID
+TimeoutStopSec=30
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo install -m 644 lesson4/lesson4-nginx.s[27m[7me[27m[7mrvice \ [27m
+[7m  /etc/systemd/system/lesson4-nginx.service[27m[A[Asudo install -m 644 lesson4/lesson4-nginx.service \
+  /etc/systemd/system/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemd-analyze verify /etc/systemd/sy[27m[7ms[27m[7mtem/lesson4-nginx.service[27m[A]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ sudo systemd-analyze verify /etc/systemd/system/lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msudo systemctl daemon-reload[27m
+[7msudo systemctl enable --now lesson4-nginx.service[27m[Asudo systemctl daemon-reload
+sudo systemctl enable --now lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\]133;C\]666;vte.shell.preexec!\Created symlink '/etc/systemd/system/multi-user.target.wants/lesson4-nginx.service' → '/etc/systemd/system/lesson4-nginx.service'.
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl status lesson4-nginx.service[27msystemctl status lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[0;1;32m●[0m lesson4-nginx.service - Lesson4 custom Nginx service[m
+     Loaded: loaded (]8;;file://stepa-lesson4/etc/systemd/system/lesson4-nginx.service\/etc/systemd/system/lesson4-nginx.service]8;;\; [0;1;32menabled[0m; preset[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Fri 2026-11-13 11:22:51 MSK; 16s ago[m
+ Invocation: e5e4dee653404898b9da535a35a361db[m
+    Process: 28148 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCE[m[7m>[27m
+    Process: 28150 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)[m
+   Main PID: 28151 (nginx)[m
+      Tasks: 3[0;38:5:245m (limit: 3963)[0m[m
+     Memory: 3M (peak: 3.4M)[m
+        CPU: 28ms[m
+     CGroup: /system.slice/lesson4-nginx.service[m
+             ├─[0;38:5:245m28151 "nginx: master process /usr/sbin/nginx"[0m[m
+             ├─[0;38:5:245m28152 "nginx: worker process"[0m[m
+             └─[0;38:5:245m28153 "nginx: worker process"[0m[m
+[m
+Nov 13 11:22:51 stepa-lesson4 systemd[1]: Starting lesson4-nginx.service - Less[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 nginx[28148]: nginx: the configuration file /etc/[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 nginx[28148]: nginx: configuration file /etc/ngin[m[7m>[27m
+Nov 13 11:22:51 stepa-lesson4 systemd[1]: Started lesson4-nginx.service - Lesso[m[7m>[27m
+[7mlines 1-19/19 (END)[27m[K[K[?1l>
+]666;vte.shell.postexec=130\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active lesson4-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl is-active lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\active
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled lesson4-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl is-enabled lesson4-nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\enabled
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7mcurl -I http://127.0.0.1[27mcurl -I http://127.0.0.1
+[?2004l]133;C\]666;vte.shell.preexec!\HTTP/1.1 200 OK
+[1mServer[0m: nginx/1.30.4 (Ubuntu)
+[1mDate[0m: Fri, 13 Nov 2026 08:23:39 GMT
+[1mContent-Type[0m: text/html
+[1mContent-Length[0m: 896
+[1mLast-Modified[0m: Fri, 13 Nov 2026 08:19:50 GMT
+[1mConnection[0m: keep-alive
+[1mETag[0m: "6af6c826-380"
+[1mAccept-Ranges[0m: bytes
+
+]666;vte.shell.postexec=0\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-active nginx.service[27msystemctl is-active nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\inactive
+]666;vte.shell.postexec=3\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ [7msystemctl is-enabled nginx.service[27msystemctl is-enabled nginx.service
+[?2004l]133;C\]666;vte.shell.preexec!\disabled
+]666;vte.shell.postexec=1\]7;file://stepa-lesson4/home/stepa/codeby-devops\]0;stepa@stepa-lesson4:~/codeby-devops\]666;vte.shell.precmd!\[?2004h]0;stepa@stepa-lesson4: ~/codeby-devops[01;32mstepa@stepa-lesson4[00m:[01;34m~/codeby-devops[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-11-13 11:24:14+03:00 [COMMAND_EXIT_CODE="1"]
