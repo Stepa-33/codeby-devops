@@ -1,0 +1,4 @@
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+-A INPUT -p icmp -m icmp --icmp-type 8 -j DROP
